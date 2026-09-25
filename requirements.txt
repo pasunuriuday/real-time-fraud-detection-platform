@@ -1,3 +1,4 @@
+confluent-kafka==2.15.1
 Faker==40.39.0
 iniconfig==2.3.0
 numpy==2.4.6
