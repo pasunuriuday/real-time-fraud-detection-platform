@@ -1,0 +1,1001 @@
+customer_id,name,age,email,city,state,account_type
+CUST-9ECF7D09,Vanessa Mcfarland,63,cruzjermaine@example.com,Martinhaven,AR,SAVINGS
+CUST-83828A23,Colleen Hayes,55,mitchelllindsey@example.com,Anthonyhaven,SC,CREDIT
+CUST-ECAE9A85,Dr. Austin Murillo,63,karen51@example.org,East Lisa,AL,CREDIT
+CUST-1119C4E6,Andrew Mccall,60,andrea81@example.org,Lake Gina,CT,SAVINGS
+CUST-50BFA263,Amy Wilson,50,englishmary@example.com,Thompsonview,AR,CHECKING
+CUST-B8A55F64,Lisa Hardy,65,jessica61@example.com,Knoxbury,PW,CREDIT
+CUST-B3E9ACC7,Mark Heath,35,evan12@example.org,Michaelport,AR,SAVINGS
+CUST-F54358B9,Kimberly Bass,46,mooremichael@example.com,South Jennifermouth,CA,CHECKING
+CUST-B0BC48E4,Eric Young,54,hsilva@example.com,Port Stephaniechester,PW,CHECKING
+CUST-35CB6E21,Allen Leach,35,jeffreyfaulkner@example.net,New Stephaniebury,AZ,CREDIT
+CUST-1558CFDB,Megan Turner,56,kristin11@example.com,East Edgarburgh,TN,CHECKING
+CUST-30F64615,Jason Mejia,24,leerobert@example.net,Parkshaven,MH,CREDIT
+CUST-858C62BA,Joshua Williams,32,christina19@example.org,Amandaport,MD,CREDIT
+CUST-26490ACE,Laurie Wilson,63,campbellmichele@example.org,West Ryanchester,NV,CHECKING
+CUST-99996211,Joseph Villarreal,21,lisa74@example.com,West Matthewborough,NY,CHECKING
+CUST-45BD0333,Sherri Murillo,36,christopher05@example.com,New James,SD,CREDIT
+CUST-09FC46C5,Elizabeth Patton,71,hooverpamela@example.org,New Jeffrey,TN,SAVINGS
+CUST-3A018A77,Amanda Padilla PhD,28,richardmunoz@example.org,Gilesfort,NY,CREDIT
+CUST-5196BD1B,Katherine Sosa,32,nashdavid@example.com,Mikehaven,ME,CREDIT
+CUST-A0971976,Tracy Brady,32,veronicahobbs@example.org,Danielfurt,AL,CHECKING
+CUST-ACAF3DBA,Jillian Padilla,74,allenjohnson@example.org,Kevinborough,AZ,SAVINGS
+CUST-BA49F478,Mark Chapman,27,hubertracy@example.com,New Terri,FL,CHECKING
+CUST-30FFDAEF,Ashley Wells,28,cruzstephen@example.net,West Shannonfurt,IA,SAVINGS
+CUST-4C1A8794,Emily Fisher,72,thomasbeasley@example.com,Lake Johnside,WI,CREDIT
+CUST-889C98EC,Thomas Huber,35,kathy25@example.org,Lake Paulport,WA,CREDIT
+CUST-F530B961,Cheryl Fields,79,lopezjennifer@example.com,Lorraineshire,KY,SAVINGS
+CUST-6E985D87,Jeffery Harris,42,malonemelissa@example.com,Lake Donaldfort,PA,SAVINGS
+CUST-8B799D24,Douglas Brooks,51,joshuadiaz@example.org,Simonberg,VA,CREDIT
+CUST-B088E57D,James Martin,28,mariavaughn@example.org,East Shannon,DE,CHECKING
+CUST-7D4F8374,Daniel Aguilar,38,jacobsoncharles@example.net,Sellershaven,VT,CHECKING
+CUST-E85DE16A,Taylor Alexander,76,emmaarcher@example.com,East Susanbury,AL,CREDIT
+CUST-902A4006,Matthew Griffin,65,hannah20@example.net,Sandovalmouth,MN,SAVINGS
+CUST-77CF882F,Richard Martinez,30,tbishop@example.com,South Shelleymouth,KS,CHECKING
+CUST-78077792,Brian Stone,53,hunterchristopher@example.org,Nathanielfurt,AL,CHECKING
+CUST-DB474E2A,Donald Sparks DDS,37,elliottallison@example.com,New Pamelashire,KS,CHECKING
+CUST-56C43E45,Mariah Wright,45,vgalloway@example.org,Moodyfort,DE,SAVINGS
+CUST-CB1198A1,Michael Poole,29,johngarcia@example.com,North Michaelbury,IN,CHECKING
+CUST-DFA5428B,Lindsay Adams,56,ramoschristopher@example.net,West Christopher,NM,CHECKING
+CUST-B17A1CB2,Mercedes Hill,66,catherinelopez@example.net,Phillipberg,PW,SAVINGS
+CUST-983BA7CB,Elizabeth Owens,33,christopherdunn@example.com,East Brianport,ID,SAVINGS
+CUST-848AE78D,Brandon Davis,68,philiplawrence@example.com,West Laura,MN,SAVINGS
+CUST-C79C1656,Francis Washington,23,jeremymartinez@example.org,Port Gabriela,TX,CHECKING
+CUST-56C3C470,Matthew Washington,56,josephbutler@example.org,South Amandamouth,WA,CHECKING
+CUST-1BE490A4,Christine Soto,59,mckenziejonathan@example.org,Justinview,WY,CREDIT
+CUST-5CF2433D,Christopher Mccoy,64,mccarthyelizabeth@example.com,Lake Sarahfort,NM,SAVINGS
+CUST-6C77E6E2,Joshua Thompson,30,sean49@example.com,East Michaelland,AS,CHECKING
+CUST-550E12E2,Stephen Hill,80,josephpatel@example.org,South Timothystad,AZ,CREDIT
+CUST-32EACD02,Terry Morris,48,jasonhuang@example.org,Josephview,NV,CHECKING
+CUST-A4630795,Karen Burns,76,travis93@example.net,East Ricardobury,MP,CREDIT
+CUST-DCDD0519,John Lester,29,cameronbraun@example.net,Victoriafurt,MD,SAVINGS
+CUST-A31B35A3,Fernando Reyes,67,bruce81@example.net,Drewfort,OR,SAVINGS
+CUST-DC8CE6A5,Mitchell Stewart,24,davidchambers@example.com,Lake Richard,MI,SAVINGS
+CUST-5E4DED4A,James Turner,22,ndavis@example.com,South Jessica,MA,SAVINGS
+CUST-547B8849,Lindsay Stephens,20,awalker@example.com,Rachelstad,VT,CHECKING
+CUST-FEE8BEA0,Erica Cross,39,smckinney@example.com,Jamesmouth,MH,CHECKING
+CUST-B57E0B24,Michaela Velasquez,52,ubrewer@example.com,West Angela,RI,SAVINGS
+CUST-23229D43,Amanda Owens,78,katherinewood@example.net,North Jaime,NC,CREDIT
+CUST-CEDE8729,Nicole Wilson,69,floresbrad@example.net,Maryport,AZ,CHECKING
+CUST-802F5A7E,Brittany Griffith,45,scottbell@example.net,West Lukefurt,PR,SAVINGS
+CUST-0C850AC3,Hannah Scott,77,kkim@example.net,Garyview,AR,CREDIT
+CUST-546E2C36,Erica Haney,44,rosenicholas@example.org,Diazside,GU,CREDIT
+CUST-2E847E09,Kerry Lynn,18,david50@example.org,Markport,HI,CREDIT
+CUST-F025273A,Bridget Reed,21,brandonsmith@example.com,Lake Kathrynton,AS,CHECKING
+CUST-E9FC7DB0,Steven Burke,67,diana40@example.com,Lake Jamesburgh,OK,CREDIT
+CUST-8D1B69A0,Christine Rose,35,tweaver@example.net,Dianehaven,UT,SAVINGS
+CUST-23D705E4,Steven Russell,54,ismall@example.org,South Matthew,AK,CREDIT
+CUST-07CA1DEF,Amanda Schmidt,63,josephpetersen@example.net,Trevortown,OH,SAVINGS
+CUST-C463F075,Steven Anderson,76,crawfordjason@example.org,Sanchezmouth,CO,CHECKING
+CUST-F54D58D6,Jessica Rios,54,jmorgan@example.com,Chenland,ID,SAVINGS
+CUST-84DE4EF5,Margaret Thornton,75,toddnelson@example.org,West Mary,MH,CHECKING
+CUST-30ED4DF9,Timothy Smith,60,hjordan@example.org,Jameston,GA,SAVINGS
+CUST-80524561,Tanya Combs,75,mooremelissa@example.org,East Marthaland,MA,SAVINGS
+CUST-BF55D679,Roger Miller,39,waltersjennifer@example.com,North Jonathanfurt,NE,CREDIT
+CUST-113A3B22,Tracey Spencer,75,eacosta@example.net,Riveraport,IN,CHECKING
+CUST-2EC1C399,Patricia Gibson,75,awilkerson@example.net,Seanmouth,IN,CREDIT
+CUST-EB3B48C7,Stephen Lowe,27,mcguirelaura@example.org,New Daniel,ND,CHECKING
+CUST-1971772F,Lisa Watts,25,ijohnson@example.com,Powersfurt,KS,CREDIT
+CUST-3866B3EC,Connor Ayala,19,amber16@example.org,West Traci,GA,SAVINGS
+CUST-EC3FCD86,Monique Ray,60,swells@example.org,Ashleychester,HI,CREDIT
+CUST-8B7AA136,Morgan Lee,32,rstephenson@example.org,Port Ericfurt,CA,CHECKING
+CUST-32610907,Tyler Ellis,23,ellen68@example.com,Gregoryview,OH,CREDIT
+CUST-A7D8A542,Paul Clements,45,andrew25@example.net,Davishaven,VA,SAVINGS
+CUST-6EF566A7,Daniel Gutierrez,23,jeffersondave@example.net,East Josephland,LA,CREDIT
+CUST-A181AFFD,Jennifer Schmidt,75,gonzaleznicole@example.net,Jenniferville,RI,CHECKING
+CUST-B6BC7543,Jenna Sanders,58,angelastephenson@example.com,Ruizmouth,MD,CREDIT
+CUST-D4738A60,Jason Wells,51,alanhughes@example.org,Lake Daniel,MN,CHECKING
+CUST-45BB39B7,Joseph Walsh,49,dsmith@example.org,Markview,AS,CREDIT
+CUST-EDE7AA4A,Christy Wiley,58,jacksonstephen@example.org,New Christopher,ND,CHECKING
+CUST-32EA98DC,Tonya Baxter,41,qjones@example.com,Meyerberg,PW,SAVINGS
+CUST-1A8A00BE,Jason Hall,55,julie34@example.com,West Matthew,AR,CHECKING
+CUST-D326F116,April Perez,32,adamsrussell@example.com,Townsendburgh,MI,CHECKING
+CUST-A912B879,Cody Matthews,80,travisdavidson@example.net,Franciston,MA,CHECKING
+CUST-BBD45AA7,Amy Joyce,48,carla15@example.org,Kramerview,VT,SAVINGS
+CUST-96099770,Amy Lewis,35,ylee@example.net,Joshuatown,WI,CHECKING
+CUST-7A160C94,Anne Smith,55,stevensleslie@example.net,Mcdowellstad,MA,CHECKING
+CUST-AA7C77D5,Peter Stewart,69,margaret65@example.com,East Michelle,VA,SAVINGS
+CUST-74A52359,David Burke,23,nicholas20@example.org,Bellfurt,TN,CHECKING
+CUST-5927D706,Christine Davis,38,cristinasantana@example.net,Kellyhaven,NY,CREDIT
+CUST-1407A2EA,Jonathan Padilla,46,luisrojas@example.net,South Nancystad,CA,SAVINGS
+CUST-84B4C2D5,Haley Smith,37,patriciamyers@example.org,Tinamouth,CT,SAVINGS
+CUST-81E0248F,Roy Curry,54,buckleah@example.com,New Michael,WV,SAVINGS
+CUST-5C90698D,Rebecca Richards,80,ronnie45@example.net,New Brian,ID,CHECKING
+CUST-270AEDE4,Jane Welch,60,thomasrachel@example.com,East Michaelstad,RI,CREDIT
+CUST-F243AD4F,Andrew Jones,38,johnsonjonathan@example.com,Kristinaborough,LA,CREDIT
+CUST-B600AD1B,Ana Mcmillan,70,dvelasquez@example.com,North Alexa,WV,SAVINGS
+CUST-FD2611C8,Terry Solis,64,gary46@example.org,Lake Rebeccaside,DC,CHECKING
+CUST-AD09D513,Megan Ferguson,40,cynthia17@example.com,Christopherside,DC,CREDIT
+CUST-C5D51A4F,William Hernandez,23,trevor67@example.org,Burtonhaven,SD,CREDIT
+CUST-E2C191F6,Krista Morales,77,rmay@example.org,New Thomas,VT,CREDIT
+CUST-6F97AB7E,Veronica Simmons,46,simpsonelizabeth@example.com,Higginsfort,CO,CREDIT
+CUST-E1398647,Sharon Barnes,65,wongtaylor@example.net,Perezfort,GU,CREDIT
+CUST-00256C9F,Sarah Peterson,58,mcguirevincent@example.com,Masonport,KS,CREDIT
+CUST-F92C4CAA,Jeremy Foster,32,mfrazier@example.net,Lake Nicole,MT,SAVINGS
+CUST-DAB3C36C,Christian Coleman,29,harrischristopher@example.net,Lake Jessica,MH,CREDIT
+CUST-263D656C,Daniel Turner,54,thomas80@example.org,Amyhaven,OK,CHECKING
+CUST-AA5879B0,Michael Hart,57,patrickwalker@example.com,Port Travis,UT,SAVINGS
+CUST-E8FA2CF7,Jimmy Collins,78,rbishop@example.net,Ashleyland,NC,CREDIT
+CUST-ACF0D804,Travis Villegas,69,hoodjeanette@example.org,Denisehaven,KS,SAVINGS
+CUST-BD676F3F,Lisa Green,53,ashley94@example.net,Garrisonchester,HI,SAVINGS
+CUST-EC427EF3,Brandon Brandt,60,changjames@example.net,Reyeshaven,CA,SAVINGS
+CUST-B3D44ACD,Benjamin Bryant,62,ewhite@example.net,Williamland,NE,CREDIT
+CUST-EBA5D792,Kurt Walker,57,justin22@example.org,Kristamouth,VI,SAVINGS
+CUST-C512B099,Dorothy Sloan,30,richardsonkevin@example.com,South Deborahmouth,CA,CHECKING
+CUST-047B5CD8,Shawn Collins,72,nicolewells@example.net,Tylerburgh,WY,CHECKING
+CUST-AE955BD3,James Navarro,47,clayton48@example.org,Greenebury,AL,CREDIT
+CUST-6AA3EFCC,Alicia Miller,66,ycruz@example.com,South Michaelland,RI,SAVINGS
+CUST-DCD8C456,Lee Clements,21,walterward@example.org,West Amandaland,AL,CREDIT
+CUST-D1BA6BC7,Chase Kelly,37,sarahjones@example.com,North Tammyside,MO,CREDIT
+CUST-26AB49A7,Paula Keith,74,trevorjones@example.com,Davenportchester,SC,CHECKING
+CUST-0A7398F0,Kimberly Reed,80,bmcmillan@example.net,Lake Jimmyton,NE,SAVINGS
+CUST-B602401A,Jamie Kelly,43,rebecca86@example.net,Stephenport,ID,CREDIT
+CUST-FB8236BD,Cheyenne Frey,74,danielmeghan@example.com,North Miguelfort,CO,CHECKING
+CUST-C388302A,Jason Jones,21,tammybolton@example.com,North Lauren,NJ,SAVINGS
+CUST-B6D6370E,Xavier Ellis,20,linda28@example.net,South Brandistad,FM,SAVINGS
+CUST-835C2A19,Christopher Wallace,31,monicaturner@example.net,West Lauren,NH,SAVINGS
+CUST-314A95E6,Kevin Grant,37,christopherturner@example.com,Marieside,AL,CREDIT
+CUST-7B3ACAD0,Jamie Brown,40,cgutierrez@example.org,Lake Edwardstad,AZ,CREDIT
+CUST-92893F09,Yvonne Nichols,52,sotojennifer@example.org,Davidton,NE,CREDIT
+CUST-84CE0555,Kimberly Keller,55,fischeramy@example.org,West Leahshire,MN,CHECKING
+CUST-911F4401,Ashley Martin,44,steven49@example.com,Robertmouth,VI,CREDIT
+CUST-B3BF09F8,Jeffrey Atkinson,38,wilsonglenn@example.com,South Kimberly,CA,SAVINGS
+CUST-EF8CC573,Kelly Murphy,64,andrew24@example.net,North Jermaine,MS,SAVINGS
+CUST-C20D7F93,Ian Lowery,38,qowen@example.com,South Brandonborough,MT,CREDIT
+CUST-B4E62882,Cynthia Gardner,59,barbara21@example.net,New Emily,VI,CHECKING
+CUST-BBF37132,Steven Wells,49,dukedustin@example.org,Paynefort,VI,SAVINGS
+CUST-DB236003,Harold Lam,24,denise13@example.org,West Michael,GU,SAVINGS
+CUST-5C7E372F,Tony Walls,42,michaelgardner@example.com,Waltersport,MN,CHECKING
+CUST-BB391E95,Charles Phillips,64,oalexander@example.net,West Charlesburgh,DC,SAVINGS
+CUST-D5E11495,Terri Jacobs,56,monica32@example.org,Karenview,DE,CREDIT
+CUST-2FD427FE,Dr. Pamela Mcknight,75,leonjohnny@example.com,Lake Carl,IA,CHECKING
+CUST-51029931,Thomas Thompson,40,derrickjames@example.com,South Jasonburgh,UT,CREDIT
+CUST-4375FEF5,Jason Lee,22,qnavarro@example.org,East Stephanietown,NJ,SAVINGS
+CUST-DA22E2A6,Bethany Nelson,75,chelseawells@example.net,Melanieport,AZ,SAVINGS
+CUST-E172A301,Amanda Griffin,18,perryjamie@example.net,East Kathryn,NJ,CREDIT
+CUST-7C4388EE,Toni Palmer,20,madams@example.net,Stevensport,CT,CREDIT
+CUST-C2B4C632,Sheila Conway,51,benjaminwalker@example.net,Jeffreyfurt,DC,CHECKING
+CUST-A71C24A6,Juan Carlson,59,lewiskevin@example.net,Lake Kimberlyhaven,LA,CREDIT
+CUST-1CE0A892,Lindsey Perez,34,marcusschmidt@example.com,Hollandburgh,MD,CHECKING
+CUST-B25597F2,Derek Watson,25,fwolfe@example.com,Kellyshire,MO,CHECKING
+CUST-24A9C63C,Carl Watson,24,sarah53@example.org,New Juanport,ND,CREDIT
+CUST-94D2B059,Todd Peck,48,murphytina@example.org,Farmerton,FM,SAVINGS
+CUST-06164523,Edward Mcdowell,57,ktaylor@example.org,Lake Denniston,DC,SAVINGS
+CUST-A55BEEEF,Jonathan Bryan,27,patriciaberry@example.com,Reneefort,PW,SAVINGS
+CUST-668A49D4,Meagan Goodman,69,clayeduardo@example.com,South Felicia,IN,CREDIT
+CUST-C2DA2C1C,James Schmitt,35,fitzgeraldstephanie@example.net,West Katherineborough,WY,SAVINGS
+CUST-3D67930C,Ian Simpson,31,cartermichael@example.net,Port April,RI,SAVINGS
+CUST-BF33A3F7,Leah Johnson,41,richard11@example.org,Brittanyside,NC,CREDIT
+CUST-889FFC81,Tina Dennis,37,christopher70@example.org,Lake Kimberly,ME,CHECKING
+CUST-6E91B874,Alexandria Cook,77,victoriahunter@example.com,Jessicahaven,SD,CREDIT
+CUST-33AFA4F9,Roger Knox,54,martinezryan@example.net,Sanchezport,ME,CHECKING
+CUST-0B48F8E8,Shelby Stone,41,collinskristin@example.net,Alexandrafort,MI,CREDIT
+CUST-B6C01D76,Christopher Morris,44,keith10@example.net,Lake Tara,GA,CREDIT
+CUST-B9D0490D,Louis Gross,64,garciaderek@example.org,Trujilloborough,FM,SAVINGS
+CUST-267E9CD9,Julia Hughes,48,juliabarnes@example.com,Walshside,ND,CHECKING
+CUST-E214E765,Amanda Morse,32,reyesholly@example.org,Lake Jasminebury,CO,CREDIT
+CUST-F37EA7ED,Alexandra Roman,61,james71@example.org,Port Christinefort,MN,CREDIT
+CUST-790B5E39,Lacey Aguilar,22,yrice@example.org,Lake Pamelachester,OK,CHECKING
+CUST-2B34EA8E,Edward Reed,48,andrea72@example.net,Jilliantown,AZ,CREDIT
+CUST-DB77B2DF,Cathy Carroll,33,ohiggins@example.net,West Kathleen,MI,CREDIT
+CUST-27ADA83A,Bailey Hall DDS,67,wolson@example.net,West Thomas,TX,CHECKING
+CUST-27056F84,Joseph Lopez,43,vmcdonald@example.com,Kimberlyfurt,CO,SAVINGS
+CUST-093A3969,Cassandra Jones,47,crystaljackson@example.org,Jacksonshire,MT,SAVINGS
+CUST-CB77F646,Lori Moody,72,fyoung@example.com,Edwardburgh,WI,CREDIT
+CUST-DEDD4F76,Michele Guerra,80,tammyjohnson@example.org,Haysburgh,FL,CHECKING
+CUST-49B443F6,Andrea Elliott,18,mary02@example.org,East Josephberg,UT,CHECKING
+CUST-F4FD876E,Peggy Reed,53,tony48@example.com,Mooreport,CA,CREDIT
+CUST-55DEBAD5,Katelyn Johnson,24,johnpowell@example.org,East Meganborough,ND,CHECKING
+CUST-4D47EFA8,Robert Washington,50,suzannearnold@example.org,Jeffreystad,TN,CHECKING
+CUST-A015F6FC,William Bonilla,71,michael38@example.net,Veronicaburgh,MP,CHECKING
+CUST-3AF25128,Nicole Vincent,25,millermichael@example.com,East Erik,AR,CHECKING
+CUST-B26F0D8C,Robert Flowers,79,byrdjose@example.com,New Jamesview,FL,CREDIT
+CUST-23A5963D,Michael Dixon,78,wfields@example.org,Meganhaven,AL,SAVINGS
+CUST-A0331961,Angela Salas,20,tlopez@example.net,East Matthew,IA,CREDIT
+CUST-BAAD5074,Melanie Bowman,50,richard46@example.net,Hicksside,SD,CREDIT
+CUST-07E381A1,Christopher Olsen,76,jessica41@example.org,Lake Shannon,VT,CREDIT
+CUST-9DCDC391,Gregory Fisher,67,osutton@example.net,Gonzalezbury,LA,CHECKING
+CUST-9152C656,Ryan Morales,30,dana94@example.net,Waltonmouth,NC,CHECKING
+CUST-78880986,Daniel Washington,27,marygarcia@example.net,North Stephanie,LA,CREDIT
+CUST-C53B908B,Briana Johnson,56,connor93@example.com,Melvinfurt,AL,CHECKING
+CUST-9B26FC45,Matthew Holloway,71,austincraig@example.net,West Laurenfurt,IN,CHECKING
+CUST-977C5983,Jennifer Patterson,47,marklee@example.org,South Brittany,ND,CREDIT
+CUST-468738C9,Crystal Moss DVM,49,thomas75@example.org,Whitechester,WI,SAVINGS
+CUST-03658D8F,Maria Nelson,63,awood@example.com,Lake Emilyshire,OR,SAVINGS
+CUST-3131204A,Melissa Shepard,59,samuelstein@example.org,Port Brianatown,WA,SAVINGS
+CUST-9754D1DE,Marilyn Miller,43,valdezlaura@example.net,Aprilmouth,WY,CREDIT
+CUST-6AA707DC,Shawn Brady,74,davisbrandon@example.net,East Antonioport,ME,CREDIT
+CUST-10AAA3E2,Debra Bright,26,aodonnell@example.net,Gillespiehaven,FM,CREDIT
+CUST-7A2FEAF8,Savannah Armstrong,77,mccarthysteven@example.net,Martinshire,AL,SAVINGS
+CUST-55B77B62,Jeffrey Miller,40,amandacannon@example.org,Peterbury,NE,SAVINGS
+CUST-C469CD95,Erin Odonnell,32,james40@example.net,Port Nancy,TX,SAVINGS
+CUST-D1B10AE3,Ryan Alvarez,61,millerchris@example.net,Justinville,VI,CHECKING
+CUST-C5427A83,Brent Perez,70,robertvelasquez@example.net,New David,WY,CREDIT
+CUST-7F778443,Donald Shannon,36,hsimon@example.org,New Maryland,IN,SAVINGS
+CUST-7E6B5533,Angela Long,18,roachdavid@example.org,Foxborough,CO,CHECKING
+CUST-90FA3B5B,Crystal Williams PhD,21,willisjohn@example.com,Maryland,KY,CREDIT
+CUST-6860712A,Nicole Morris,25,kennedyjason@example.net,Stephenburgh,VI,CREDIT
+CUST-B0C03C6F,Sarah Jarvis,45,karaturner@example.net,Sarahside,ME,CREDIT
+CUST-B5674047,Gloria Brown,40,karlflores@example.net,Melaniechester,NY,SAVINGS
+CUST-6B643ABB,Katherine Harris,28,bjackson@example.org,South Michelle,SD,CHECKING
+CUST-28CADB8D,Sarah Walters,20,brittanycook@example.com,East Jenniferton,NY,CREDIT
+CUST-E7A49AF3,Thomas Tanner,20,rhurst@example.net,Lake Makaylaside,MO,SAVINGS
+CUST-2563ADDA,Gina Burton,63,kimberlytaylor@example.net,New Danielhaven,NJ,CREDIT
+CUST-F926DC90,Donald Sheppard,29,cynthia95@example.org,North Annaberg,ID,CHECKING
+CUST-95199EEF,Ashley Walter,34,igomez@example.org,Camposmouth,IA,CREDIT
+CUST-E63A4621,Jasmine Walters,63,jjackson@example.net,Fitzgeraldtown,TN,SAVINGS
+CUST-294A1A61,Kevin Hoffman,48,torresanna@example.com,Meyertown,IL,CHECKING
+CUST-98CD8952,Dylan Moore,58,hensontammie@example.net,East Derekberg,AL,CREDIT
+CUST-14E64899,Thomas Castro,62,ihall@example.org,North Williamberg,TX,CHECKING
+CUST-EF61C5EB,Sheila Hays,59,roychristopher@example.org,North Jeffrey,UT,CREDIT
+CUST-DCC7F42A,Patrick Cuevas,78,davidmcconnell@example.org,Brooksside,OR,CHECKING
+CUST-ADE28965,James Mcconnell,61,kellymatthew@example.org,East Bruce,OR,SAVINGS
+CUST-9DB58BD9,Eric Parks,41,karasanchez@example.net,Jacobfurt,PR,CREDIT
+CUST-E30E3C90,Danielle Morrow,78,michaelnichols@example.net,Jamesville,AL,CHECKING
+CUST-48D1EE81,Sherry Johnson,70,dawndavis@example.net,Lake Susanton,SC,CREDIT
+CUST-F5D23375,Rose Walker,49,wallsmary@example.net,East Christopherhaven,PA,CHECKING
+CUST-B309D9DA,Rhonda Miranda,48,raymondjackson@example.com,West Stevenfurt,GA,CHECKING
+CUST-F10CC507,Daniel Harris,48,jenna18@example.net,Jessicaberg,MO,CREDIT
+CUST-B2E3B162,William Jones,67,jasongonzalez@example.org,East Travismouth,KS,CREDIT
+CUST-B90AAF68,Mariah Martinez,54,brandonwerner@example.com,Daltonville,AR,CHECKING
+CUST-DBF132C6,Andrew Vega,58,fergusoneric@example.com,New Matthewland,WI,CREDIT
+CUST-24D905D7,Antonio Ware,78,meganpeters@example.org,West Gordonland,MN,CREDIT
+CUST-BE3C8681,Nicholas Hancock,54,wrightlaura@example.net,Heatherberg,SD,CHECKING
+CUST-4E2D0084,Mr. Cesar Lin DVM,33,ryan18@example.org,Michaelfurt,FM,CREDIT
+CUST-A779848D,Victoria Ward,57,halexander@example.com,Franklinshire,AK,CHECKING
+CUST-26C4705F,Katie Pennington,51,timothy04@example.org,Huffmanview,AK,SAVINGS
+CUST-2635183B,Angela Ortiz,30,jharris@example.net,Steventown,TN,CHECKING
+CUST-29514326,Jodi Nelson,73,hunter86@example.net,Palmerville,NC,SAVINGS
+CUST-8D621942,Steven Fitzgerald,69,masonlaura@example.org,Jeanview,WV,SAVINGS
+CUST-516D2DDD,Clifford Davis,37,wsmith@example.net,Hallhaven,OR,CREDIT
+CUST-440AF6BE,Jared Bailey,39,kfrancis@example.org,Jeffreyview,VT,CREDIT
+CUST-F8778F88,Jennifer Price,73,david43@example.net,Hickston,OR,CHECKING
+CUST-8E83A8B1,Michele Barnett,35,parkerandrew@example.com,East Catherinetown,MN,SAVINGS
+CUST-DB2C5F39,Paul Williams,53,kemprhonda@example.net,New Troystad,LA,CHECKING
+CUST-4E0E76BD,Elizabeth Trujillo,53,scottramirez@example.org,North Robert,NM,SAVINGS
+CUST-D1CE00B3,Michael Kim,50,rodney66@example.net,Port Valerie,LA,SAVINGS
+CUST-96C2EEA8,Ronnie Maldonado,49,jasonburns@example.net,Ayalashire,ME,SAVINGS
+CUST-C0363BA0,Emily Carr,35,ckline@example.com,Andersonberg,OK,CHECKING
+CUST-06072FE0,Jonathon Johnson,33,lcollins@example.net,West Johnland,NM,CREDIT
+CUST-588CB19B,Mark Sullivan,62,jessica81@example.net,West Danielville,PW,SAVINGS
+CUST-2AE9E6A9,Jennifer Henderson,37,harrisonjason@example.net,Lake Benjaminborough,LA,CHECKING
+CUST-1320DC1B,Derrick Hardy MD,35,mhansen@example.net,Martinezbury,MI,CREDIT
+CUST-1A324AD7,Nicholas Gonzalez,65,kevinthomas@example.net,Port Ryan,MO,CREDIT
+CUST-6D74331C,Erin Parker,24,michaelmartinez@example.com,Brookeport,HI,SAVINGS
+CUST-DBFC4140,Stephanie Rivera,80,michael59@example.com,Katietown,WY,CHECKING
+CUST-020A0A4F,Tracy Woodward,20,lindaarellano@example.com,Lake Karenland,KY,CREDIT
+CUST-202DEC41,Noah Pratt,50,alexandersarah@example.com,Kimberlyfort,WI,CHECKING
+CUST-BD4A10F8,Brandi Riddle,39,fergusonjohn@example.org,Walkermouth,MP,CHECKING
+CUST-6C066E81,Melanie Beltran,19,kristinparker@example.com,Ianburgh,KY,SAVINGS
+CUST-811F750D,Sara Navarro,74,fosterjerry@example.net,Angelaburgh,NM,CREDIT
+CUST-6C1C7294,Lisa Martinez MD,25,wileynicholas@example.net,East Jasonshire,LA,CREDIT
+CUST-A3E5A7DA,Edward Rodriguez,53,brittany50@example.org,West Monicaville,SD,CHECKING
+CUST-CFFCB685,Jennifer Mcbride,45,njones@example.org,East Jill,IL,SAVINGS
+CUST-F6720AF6,Pamela Thomas,43,herreraelizabeth@example.org,Lake Miguelchester,AL,CHECKING
+CUST-CC88774D,Jeffrey Flores,45,ewebster@example.org,Port Shelly,PR,CREDIT
+CUST-E8DCA7E0,John Johnson,78,jennifer11@example.com,West Catherinechester,WI,CREDIT
+CUST-5BBA1178,Audrey Branch,39,benjamin95@example.net,Port Kimberly,VT,CREDIT
+CUST-53A505FD,Christopher Booth,23,armstrongjacob@example.com,Tannerport,PW,SAVINGS
+CUST-C20CF3AF,Jacob Carter,64,diane15@example.net,Hendrixside,TN,CHECKING
+CUST-E73170F4,Anna Cruz,46,jrosales@example.net,East Jessechester,NM,SAVINGS
+CUST-8848FA05,David Brown,76,sandranelson@example.org,Ryanland,MN,CHECKING
+CUST-B5E9310D,James Ferguson,29,zcalhoun@example.net,West Rachelstad,PW,CHECKING
+CUST-6F0A3D74,Heather Goodman,54,joanne46@example.com,Dominiqueshire,NV,CREDIT
+CUST-530976A1,Karen Jones,66,floresgregory@example.net,East Thomas,HI,CHECKING
+CUST-8A918DCF,Zachary Welch,42,palmerronald@example.net,West Danny,MP,SAVINGS
+CUST-F1A2F478,Daniel Jones,67,michael29@example.net,Calhounchester,MN,SAVINGS
+CUST-C4F6D605,John Hodges,38,tabbott@example.net,South Justinside,NE,SAVINGS
+CUST-71524861,William Fernandez,78,justinking@example.net,Ashleyborough,KS,CHECKING
+CUST-02180664,Megan Jordan,38,jenkinsrachel@example.net,Sanchezhaven,PR,CHECKING
+CUST-84D5F0A2,Robert Griffin,39,watsonscott@example.com,South Chelseaville,NV,SAVINGS
+CUST-47C69BC6,Mrs. Alyssa Stein,52,wgalloway@example.com,South Ryan,NM,CHECKING
+CUST-EDB5BC4B,Jacob Jenkins,43,staceypatton@example.net,New Jeff,SC,SAVINGS
+CUST-20A01961,Robert Smith,55,clinetimothy@example.org,East Wendystad,AK,SAVINGS
+CUST-7AA8DEEA,Teresa Andrews,60,cassandrasnow@example.com,North Elizabethbury,PA,CREDIT
+CUST-DD4F44CA,Ian Zimmerman,44,matthew85@example.net,Port Jasonfurt,AS,CREDIT
+CUST-EC894868,Debbie Fields,30,jon97@example.net,Emilychester,NC,SAVINGS
+CUST-FEE40DDC,David Perry,74,santosdana@example.com,South Sarah,KS,CHECKING
+CUST-09F3A09E,Lisa Howard,32,samantha57@example.org,Port Gregory,ND,SAVINGS
+CUST-A9BD54FB,Jennifer Cortez,65,uwalsh@example.com,Watkinston,MH,SAVINGS
+CUST-E03F9D1F,Michael Blake,72,lesliebell@example.net,North Kevin,RI,CHECKING
+CUST-F8208C75,Scott Watts,76,shermanpatty@example.net,North Sarahland,WV,CHECKING
+CUST-B43F8E46,Jeffrey Mullins,27,vcross@example.net,Lake David,GU,SAVINGS
+CUST-7FF41E4B,Maria Rubio,58,loriharrison@example.net,Woodwardside,LA,CHECKING
+CUST-3C516463,Gabriella Ferguson,18,alyssaday@example.com,Lake Olivia,OH,SAVINGS
+CUST-235F49DE,Joshua Ellis,45,jenkinslarry@example.com,West Dustinchester,OR,CHECKING
+CUST-57EE0CB3,Alison Henderson,62,kevin94@example.com,South Stephanie,SC,SAVINGS
+CUST-541B273C,Robert Porter,30,kperez@example.com,Lindseyberg,DE,CREDIT
+CUST-54DB4AC4,Cheryl Mitchell,66,calebpeterson@example.com,Charlesside,SD,SAVINGS
+CUST-BBADADB7,Alejandro Edwards,26,julie64@example.com,West Melissa,DE,CHECKING
+CUST-3179A0E8,Marie Briggs,29,icole@example.net,North Robert,SC,SAVINGS
+CUST-BAC92AF7,Monique Baker,64,jonathon25@example.org,Lake Richard,GU,CHECKING
+CUST-B5DEF8F7,Brooke Mills,54,ibaker@example.org,Marshallborough,MI,CREDIT
+CUST-80E6B78A,Robert Dorsey,22,hmason@example.org,Baxtershire,PA,CREDIT
+CUST-D2842D4F,Sierra Mathis,78,sandra58@example.com,Haynesstad,IA,CREDIT
+CUST-02848F08,Matthew Murphy,75,kellifisher@example.net,West Anna,WY,CHECKING
+CUST-8054952A,Scott White,63,wolfecathy@example.com,West Royport,OK,SAVINGS
+CUST-43B52C8D,Jeffrey Mack,62,rebecca78@example.org,South Jenniferland,NY,CREDIT
+CUST-0285B357,Barbara Torres,49,benjaminallen@example.com,New Nicole,MA,CHECKING
+CUST-98D4B2A3,Tyler Elliott,37,banksbrittany@example.org,Port Brianmouth,IL,CHECKING
+CUST-2E922106,Diana Parker,45,castanedajoshua@example.com,Booneton,IN,SAVINGS
+CUST-856AD07F,Ruth Swanson,76,johnyoung@example.com,Parkerview,NE,CREDIT
+CUST-1C0C0D1A,Paul Ross,77,hendersonanthony@example.org,South Tommy,PR,CHECKING
+CUST-ECFA8016,Lauren Hartman,78,bryancruz@example.net,Martinchester,MO,CREDIT
+CUST-85F68160,Jennifer Martin,52,priceronald@example.com,Bentleyhaven,GU,CREDIT
+CUST-93B37F5B,Crystal Baker,24,williamhunter@example.org,Cortezberg,SC,SAVINGS
+CUST-EDC14697,Jennifer Le,42,darrell63@example.org,Erinbury,MH,CREDIT
+CUST-D25A37E5,Melanie Castillo,41,dsnyder@example.net,Elizabethside,HI,CHECKING
+CUST-60F8EB9C,Wendy Garcia,43,megan61@example.net,West Tiffanyside,MS,CREDIT
+CUST-2F4D8BF3,Brandon Franklin,38,xcastro@example.net,New Larryshire,MP,CREDIT
+CUST-2DC442CF,Emily Kim,51,timothy07@example.org,Martinezstad,AL,CREDIT
+CUST-79FD1FCC,Nicole Shepherd,18,bblack@example.org,New Kristenmouth,MT,CREDIT
+CUST-6AD5EE37,Daniel Barron,75,dylanjones@example.org,Michaelberg,NE,CHECKING
+CUST-796EF6FC,Alison Reyes,46,ariel08@example.com,Rubiostad,AK,SAVINGS
+CUST-F3DFF354,Daniel Fitzpatrick,78,jennifer17@example.net,Andrewstad,MP,CREDIT
+CUST-7FB6B822,Brenda Solomon,78,clittle@example.org,Carolhaven,VI,CHECKING
+CUST-434CEB20,Mark Garza,68,shannon50@example.net,East Rachaelton,UT,CHECKING
+CUST-FF70A2D5,Cody Berry,71,bradleykiara@example.com,Hartburgh,ME,CHECKING
+CUST-A1A51398,Timothy Fry,63,kristyanderson@example.com,East Madison,FM,CREDIT
+CUST-9D1AC0A2,Sarah Robinson,65,susandouglas@example.net,South Jameshaven,AS,CHECKING
+CUST-204B30BD,Miss Jessica Perry,36,timothykelley@example.com,New Alanmouth,AL,CHECKING
+CUST-E4F5D360,Mr. Michael Ford,66,eoliver@example.net,Lisaland,MD,SAVINGS
+CUST-B8655846,Stephanie Lawrence,62,ashley00@example.com,Mikeside,CO,SAVINGS
+CUST-CA178DE1,Tim Rivera,49,joseph15@example.net,Quinnberg,MO,CHECKING
+CUST-64B1552E,Nathan Burns,56,qcross@example.net,North Aprilshire,IL,CHECKING
+CUST-EB0E5957,Kevin Freeman,32,carlygarcia@example.org,Frankchester,AK,CREDIT
+CUST-23354392,Mary Schwartz,27,bethany05@example.org,Jacksonport,ID,SAVINGS
+CUST-A4D5D455,Brian Powell,72,mercercynthia@example.net,Larryburgh,MP,CHECKING
+CUST-FEEBE7AB,Joshua Barry,33,mrodriguez@example.net,Markhaven,MA,CHECKING
+CUST-2B00B6EA,Caleb West,26,youngjeffrey@example.com,East Amy,WA,CREDIT
+CUST-58A01252,Charles Garcia,27,floreseric@example.com,Port Tara,NC,CHECKING
+CUST-978D4393,Karen Stevens,46,robert39@example.org,East Robertstad,NJ,SAVINGS
+CUST-0B1235F2,Wanda Perry,64,teresa99@example.net,Lake Kelsey,UT,CREDIT
+CUST-615568F8,Jonathan Ibarra Jr.,54,fbridges@example.net,Kennethport,MS,SAVINGS
+CUST-208535FA,Paula Thomas,66,jason45@example.com,Ashleybury,IL,CHECKING
+CUST-FF651905,Kenneth Duran,70,bauercrystal@example.org,Munozstad,IA,SAVINGS
+CUST-506F8AD1,Scott Simmons,69,darrellbrown@example.com,North Ann,DE,SAVINGS
+CUST-A3B70CCD,Keith Potter,42,christopher33@example.org,Carolmouth,WI,CREDIT
+CUST-21743F8A,Timothy Franco PhD,31,nicholas50@example.org,Bishopmouth,MD,SAVINGS
+CUST-C0C870CC,Roger Jones DVM,30,jason33@example.org,West Glenn,MT,CHECKING
+CUST-1F602FDE,Natasha Cooke,22,jasonparks@example.net,Tarashire,CA,CHECKING
+CUST-176D1854,Vanessa Chaney,64,eddiereynolds@example.org,Mcleanfurt,MI,SAVINGS
+CUST-5265A839,Anthony Clark,70,evan75@example.com,Port Christine,MN,CREDIT
+CUST-39462051,Rachel Stone,65,laurenbarnes@example.org,Morrisonstad,ID,CHECKING
+CUST-385FEFCE,Emily Randall,61,perryjesse@example.com,West Frankbury,WI,CREDIT
+CUST-7DF1DEFC,Tanya Wise,22,bradley55@example.com,Nicholashaven,KY,CREDIT
+CUST-DE6F19FA,Lisa Smith,44,kelly98@example.org,Jonathanside,SD,SAVINGS
+CUST-BB696762,Matthew Rangel,53,stacyhubbard@example.net,South Adrian,MO,SAVINGS
+CUST-4AEF4625,Jade Nguyen,45,millskristin@example.net,East Christymouth,MN,CHECKING
+CUST-0010451C,Cheyenne Patton,66,gutierrezrichard@example.org,East Robert,VT,CHECKING
+CUST-BA68E85A,Andre Dougherty,76,amanda77@example.net,Steeleberg,OR,CHECKING
+CUST-6A16C96E,Derek Johnson,77,james78@example.com,West Nathanielland,VT,CREDIT
+CUST-2E8ACFC9,Mike Thompson,77,rodriguezmichael@example.net,Nortonland,TX,SAVINGS
+CUST-14A49252,Jessica Ayala,39,lperez@example.org,West Alison,IN,SAVINGS
+CUST-555DACDC,Katherine Bowers,38,nguyenjennifer@example.net,Ronaldstad,PR,CREDIT
+CUST-F4BEC821,Holly Gross,20,vdavis@example.org,Samanthachester,MT,SAVINGS
+CUST-AEC6A2AC,Michael Haney,23,estesmatthew@example.net,Beckershire,IA,CHECKING
+CUST-1FA45054,Danielle Hanna,68,qmeyer@example.com,Morrisonbury,AL,CHECKING
+CUST-A461D3D0,Sarah Villegas,21,timothyvillanueva@example.com,Bennettmouth,KY,CREDIT
+CUST-230EC27E,Samantha Newman,23,bbaird@example.net,Lake Jessicaport,CT,CHECKING
+CUST-BA20FF24,Ernest Berry,72,lewisjack@example.org,Nelsonchester,MP,CREDIT
+CUST-BD2FA456,Tiffany Brooks,47,tiffany54@example.net,New Susanburgh,NV,SAVINGS
+CUST-8F83E9F5,Jared Payne,48,michaelrodriguez@example.org,Scottview,IL,SAVINGS
+CUST-685AE6F2,Aaron Brown,36,leemary@example.com,West Timothyport,CA,CHECKING
+CUST-C6482EFE,Danielle Ray,55,amy16@example.net,Lake Patriciachester,MS,SAVINGS
+CUST-9304EA81,Linda Blankenship,19,christian83@example.org,Rhondamouth,ME,CREDIT
+CUST-4F1EDBB5,Jacob Diaz,75,fcoleman@example.org,Carolshire,NH,CREDIT
+CUST-C323118C,Hannah Malone,49,jaclynlevine@example.org,New Michael,AK,CHECKING
+CUST-4FD17B6A,Katherine Pollard,77,broberts@example.org,Kennethville,PW,CREDIT
+CUST-AB92F24D,Dominique Gregory,77,sramos@example.org,Jillmouth,AS,SAVINGS
+CUST-F7B9FE41,Aaron Smith,34,logan86@example.net,Lisachester,WI,CHECKING
+CUST-AE97DA32,Regina Rogers,45,upearson@example.org,Eugenefurt,OK,CHECKING
+CUST-97AE3098,Joseph Hubbard,39,rachelgreer@example.com,Kerrstad,AL,CHECKING
+CUST-8CCECC2D,Todd Russell,45,rachael37@example.net,South Colleen,KS,CHECKING
+CUST-5E9A68F3,Katherine Hernandez,24,xvelasquez@example.com,Dunnhaven,WI,CHECKING
+CUST-7282BA28,Terri Harris,59,robinwilliams@example.com,East Elizabethburgh,MT,SAVINGS
+CUST-8FA4BF43,Mrs. Melissa Thomas,45,melendezscott@example.com,New Lisatown,TN,CHECKING
+CUST-1BEB4A82,Daniel Johns,20,hterrell@example.org,West Christopher,VA,SAVINGS
+CUST-FD368A63,Colton Thornton,67,vrodriguez@example.com,Port Sarafurt,MA,CREDIT
+CUST-04F285A0,William Stevens,54,usteele@example.com,Callahanberg,FM,CREDIT
+CUST-153946B7,Bradley Warren,79,deborah48@example.net,Alejandromouth,RI,CHECKING
+CUST-0C91A1FD,Eric Aguilar,46,zsoto@example.org,West Lisaton,PA,CREDIT
+CUST-CBF39B56,Danielle Robinson,27,osbornlarry@example.com,Henryland,NV,CREDIT
+CUST-12DBCE76,Joe Ware,79,lori53@example.com,Schaeferberg,AK,CHECKING
+CUST-6A50633D,Lauren Roberts,53,eric79@example.net,New Amandaport,PR,CHECKING
+CUST-D358477F,John Johns,57,wanganthony@example.org,Danielberg,RI,SAVINGS
+CUST-E597E462,Zachary Vega,36,regina68@example.org,Smithfort,NM,SAVINGS
+CUST-23BC0459,Dr. Kristine Harris,71,cgentry@example.com,West Kevin,IN,CREDIT
+CUST-8FD936F9,Jason Wheeler DDS,31,darrell53@example.net,Alvinchester,ND,CHECKING
+CUST-2FF3507E,Erica Dyer,45,daniellittle@example.net,Lake Meganfurt,OR,CREDIT
+CUST-740C3CA4,Helen Bennett,23,phelpspatricia@example.com,Hunterhaven,TX,SAVINGS
+CUST-25309594,Kim George,21,sarahrodriguez@example.org,New Eugenestad,CA,CREDIT
+CUST-56C858F7,Rodney Sanders,38,richardsrebecca@example.org,Bentleychester,ND,SAVINGS
+CUST-DBB692D9,Latoya Jones,75,morganrobert@example.com,Moraleschester,NC,SAVINGS
+CUST-36B380C2,Michael Palmer,32,tamaracox@example.net,Dillonfort,GU,CREDIT
+CUST-9C9EDA6C,Dr. Kelly Hart,31,flemingwilliam@example.net,Meyersberg,AL,SAVINGS
+CUST-661D263F,Stephen Phillips,73,ronaldduncan@example.com,Hernandezmouth,NV,CREDIT
+CUST-D1238D00,Sarah Flores,31,uwilliams@example.net,New Hollybury,MS,CREDIT
+CUST-4F6AC860,Jessica Khan,18,rhumphrey@example.com,New Davidburgh,AR,CREDIT
+CUST-B3BF60AE,Andres Rowe,78,goodwinmaria@example.net,Carmenshire,WY,CHECKING
+CUST-B45DC21E,Carlos Davis,32,jmcdonald@example.net,North Richardmouth,CT,SAVINGS
+CUST-4272B7F9,Suzanne Dyer,23,kyle52@example.net,New Steven,DE,CREDIT
+CUST-29711715,Kathleen Reid,18,griffinmichael@example.org,South Melissaview,MI,SAVINGS
+CUST-BA8BFEE0,Matthew Hunter,31,owenssusan@example.org,Mccarthyland,DC,CREDIT
+CUST-34DA4984,Dr. Kayla Fritz DDS,54,james32@example.net,Ricardoborough,MI,CHECKING
+CUST-94CCC349,Selena Walker,37,robert59@example.org,Port Stevenside,LA,CHECKING
+CUST-2EFF6153,William Burke,48,gloriastein@example.net,Christophermouth,OR,CREDIT
+CUST-28A71B9C,Michelle Watkins,80,kmoody@example.org,East Troy,ME,SAVINGS
+CUST-30F1BC12,Allen Myers,63,mknox@example.org,Beckbury,ND,CREDIT
+CUST-421889C7,Tara Williamson,59,lsmith@example.net,Port Deborahtown,OK,CREDIT
+CUST-74C677AE,Christine Shah,65,phillip81@example.org,East Christineside,RI,CREDIT
+CUST-CC559466,Karen White,22,cummingsjeffery@example.org,Heatherland,NC,SAVINGS
+CUST-5A84B546,Paul Martinez PhD,25,estradajohn@example.net,Reginafurt,NH,CHECKING
+CUST-92198013,Ryan Johnson,72,jamie15@example.net,East Toddtown,TX,CREDIT
+CUST-1063C45C,Dalton Howard,58,floydchristina@example.com,Caitlinshire,FL,SAVINGS
+CUST-4748D603,Danielle Wilson,65,martinezmatthew@example.com,North Rickside,KS,SAVINGS
+CUST-82FAF2E4,Rachel Preston,38,franciscristina@example.com,Tiffanychester,IA,SAVINGS
+CUST-AD107646,Gregory Noble,37,diazdanielle@example.net,Danielfort,AK,SAVINGS
+CUST-66FADDA0,Andrea Russell,21,julia49@example.org,Johnberg,GU,SAVINGS
+CUST-DB128F93,Jeffery Whitaker,65,meganholden@example.com,Port Cathyville,NH,CHECKING
+CUST-911B8DEC,Wendy Horn,66,tmcpherson@example.net,Juarezland,MN,CHECKING
+CUST-EBFE1587,Courtney York,33,smithwilliam@example.net,Port Alejandroview,AR,CREDIT
+CUST-69389A07,Danielle Wall,48,hayesteresa@example.net,Mcculloughbury,AZ,CHECKING
+CUST-7CEBC69D,Heather Harmon,50,christopher31@example.org,Stevebury,VA,CREDIT
+CUST-E7F9659F,Larry Winters,24,david86@example.org,Port Jamiechester,DE,CHECKING
+CUST-CEF13ABD,April Williams,39,frankgross@example.com,Kimberlystad,WA,CREDIT
+CUST-06748EEF,John Camacho,38,millernancy@example.net,Port Paul,RI,CHECKING
+CUST-6B215CC7,Kristen Welch,37,henryamanda@example.org,Flemingtown,KY,CHECKING
+CUST-E9C961C8,Hannah Chen,70,harrisonjeremy@example.org,South Ashleyside,HI,CHECKING
+CUST-D691E18F,Robert Hanson,71,zholmes@example.com,Reyesstad,FM,SAVINGS
+CUST-21226EF7,Scott James,43,colinmoreno@example.net,Margaretfort,IN,SAVINGS
+CUST-462FA48D,Christine Edwards,80,stewartkayla@example.org,Erikstad,HI,CHECKING
+CUST-42EAE3FB,Ian Nguyen,67,jameswilliams@example.net,Mckayberg,NY,CHECKING
+CUST-7D272D4B,Dawn Joseph,34,erodriguez@example.com,Deleonland,VA,SAVINGS
+CUST-0AADEA31,Dr. David Mcintosh,37,kylehuffman@example.org,Kimberlyhaven,KY,CREDIT
+CUST-37085187,Tim White,67,laurenmendez@example.com,Larahaven,AK,SAVINGS
+CUST-C9FE8898,Steven Lawrence,57,rebecca21@example.com,Chandlerborough,MD,CREDIT
+CUST-395D9A6A,Nicole Boyd,28,anthonypatel@example.org,Kennethton,AZ,SAVINGS
+CUST-C4DAE84E,Douglas Martin,33,ychen@example.org,Jonesview,FL,CHECKING
+CUST-79716A8B,Lisa Horton,67,hernandezthomas@example.org,Amberland,VI,CHECKING
+CUST-224F80B8,Dr. Amber Pollard,77,timothy54@example.com,Johnsonshire,NJ,CREDIT
+CUST-09238E45,Andrew Sweeney,33,christine20@example.org,New Colin,ME,CREDIT
+CUST-95516A65,Brandon Long,59,progers@example.org,South Nicholasville,DE,CHECKING
+CUST-03F18D44,Susan Harding,36,shannonjames@example.net,Thompsonland,PW,CHECKING
+CUST-764FFEBA,Brandi Dyer,30,feliciapeterson@example.com,West Austinland,ME,CREDIT
+CUST-0C3CA72A,Brandi Jordan,80,betty74@example.net,East Amyberg,CT,CREDIT
+CUST-04434621,Daniel Powell,72,jessicaatkins@example.com,Patriciachester,NY,SAVINGS
+CUST-A7BBA380,Willie Hawkins,29,kelly23@example.com,Maxwellberg,DC,CREDIT
+CUST-ACAE6515,Sheila Anderson,39,nwilliams@example.org,Melissaview,OK,CHECKING
+CUST-E79F8EC5,Kim Robles,19,wallcaleb@example.net,South Brittany,NM,SAVINGS
+CUST-49FF238A,Justin Barnett,38,samuelbean@example.org,Lake Stephanie,RI,SAVINGS
+CUST-3053E84D,Scott Lopez,41,angela14@example.com,East Robertland,SD,CREDIT
+CUST-9F79E30E,Dr. Kellie Davis,46,duncancalvin@example.com,West Michaelton,WY,CREDIT
+CUST-412C05DD,Mark Warren,56,jennifer11@example.org,East Cynthia,MO,CHECKING
+CUST-52033C7A,Dana Miller,51,thomas99@example.org,Loveport,UT,CREDIT
+CUST-455F3526,Johnny Walker,52,pamelacannon@example.org,West Feliciamouth,ND,CREDIT
+CUST-563A86D4,Rickey Williams,45,james56@example.org,Paynefort,MN,CREDIT
+CUST-43564BA6,Cynthia Harvey,64,zpeters@example.com,Figueroaborough,PA,SAVINGS
+CUST-9CC9ED35,Richard Garcia,60,qscott@example.com,West Jenniferberg,WV,CREDIT
+CUST-9DC2A207,Dr. James Torres,62,derrick00@example.net,Lake Jonathon,CO,CHECKING
+CUST-A5BC80C3,Scott Perry,19,ericsmith@example.net,Lake Kelly,MT,CREDIT
+CUST-43D0DE48,Jennifer Frye,18,hbarber@example.org,Millerhaven,NM,CHECKING
+CUST-95C5D541,Matthew Bradley,71,ybrown@example.com,Elizabethville,GU,CHECKING
+CUST-133851C5,Stephen Horn,28,robert49@example.net,Austinchester,TX,CREDIT
+CUST-82739F70,Lisa Mejia,58,brian08@example.com,West Mason,NH,CREDIT
+CUST-3AB95057,Brian Reynolds,22,evansralph@example.net,Walterhaven,MP,CHECKING
+CUST-DE56F011,Angela Nunez,38,zparker@example.net,Scottfurt,MA,SAVINGS
+CUST-E3EB4B08,Nicholas Gonzalez,20,lchen@example.net,East Robert,NV,CREDIT
+CUST-E1CE6A8B,Kenneth Lawson,74,popesharon@example.com,New Beckychester,ND,CHECKING
+CUST-DF4FA7DB,Logan Wilson,22,kelly96@example.com,Lake Briannaland,CT,SAVINGS
+CUST-45E18FD0,Benjamin Phillips,32,timothy26@example.net,Port Jasonstad,MI,CREDIT
+CUST-929E7FFD,Daniel Armstrong,48,david20@example.org,Tuckertown,MS,CHECKING
+CUST-48603377,Erika Harris,67,michaelbrown@example.org,Kaitlinmouth,HI,CHECKING
+CUST-589A2A78,Jennifer Moore,42,esmith@example.com,West Jessicamouth,NY,SAVINGS
+CUST-40DB586A,Debra Bradley,57,ashley82@example.org,Reillyburgh,NM,CREDIT
+CUST-59BB5C68,Kelly Calderon,43,daniel81@example.com,West Matthew,MN,CREDIT
+CUST-09D18FE2,Hannah Larsen,71,samanthacline@example.com,Port Barbara,VA,CREDIT
+CUST-1D5C5D61,Andrew Rodriguez,30,millercrystal@example.net,Morrisside,FM,SAVINGS
+CUST-1F007ECF,Melissa Green,58,josefranklin@example.org,Mercadomouth,CA,CHECKING
+CUST-AADD6757,Kenneth Rivera,31,flemingkathy@example.org,Lake Kimberlystad,IA,CHECKING
+CUST-18525A3C,Jose Henry,48,johnsonmelanie@example.net,South Cory,GU,CHECKING
+CUST-ACABD183,Angela Davis,47,gibsonelijah@example.org,West Curtis,MD,SAVINGS
+CUST-35B49E36,Karla Quinn,46,veronica84@example.org,South Brian,UT,SAVINGS
+CUST-DB6E8F93,Stephen Garcia,74,danielbrennan@example.net,Wilsonberg,NH,CREDIT
+CUST-ED102E69,Virginia Smith,68,mitchellkerr@example.com,Port Stephanie,NV,CHECKING
+CUST-85EB8B4A,Jill Nelson,68,stoutmelissa@example.net,Port Paul,FM,SAVINGS
+CUST-D50EA3DF,Elizabeth Trevino,41,smartinez@example.com,Port Brian,PR,CREDIT
+CUST-DC304CC6,Michele Buchanan,59,cassidywilliams@example.com,Charlesstad,UT,CREDIT
+CUST-4A786DDF,Nicholas Lynch,59,mcbrideamber@example.org,Lake Toni,VI,CREDIT
+CUST-79046E0E,Kyle Lopez,52,andrea21@example.net,Chrisbury,UT,CHECKING
+CUST-5F87BCE4,Todd Miller,69,hansonnathan@example.net,Jenniferland,VA,CHECKING
+CUST-D242D575,Mary Waller,56,rachael81@example.com,Nicholston,NJ,CREDIT
+CUST-3B3ECA02,Tanya Moore,27,dunnjose@example.net,Jillshire,AR,SAVINGS
+CUST-7C12E543,Kevin Ali,31,dayjoseph@example.org,Amyshire,NY,SAVINGS
+CUST-412A8852,Jessica Mcknight,79,sheri67@example.net,Port Joelport,DE,CREDIT
+CUST-10FCB759,Lucas Hall,26,fgutierrez@example.net,Hunterview,WV,SAVINGS
+CUST-7F6C7362,Vanessa Johnson MD,47,chamberslarry@example.org,New Tiffany,LA,CHECKING
+CUST-793D44AF,Jeffrey Roman,31,john42@example.org,Port Howard,CA,CREDIT
+CUST-728BEE83,Sherry Medina,20,qmurray@example.net,Kathleenland,NJ,SAVINGS
+CUST-19479831,Michael Johnson DDS,61,anthonyklein@example.net,New Angeltown,MP,SAVINGS
+CUST-C28FCC31,Thomas Brown,53,vpatterson@example.net,North Jason,ME,CREDIT
+CUST-3B7CE17C,Charles Morris,75,zhuff@example.com,Perryview,DC,CHECKING
+CUST-35D20A30,Michele Sparks,61,ariana55@example.net,North Joseburgh,MD,CHECKING
+CUST-EA275C94,Amy Roberts,40,alexander26@example.org,Williamsberg,RI,CREDIT
+CUST-AC66B6A8,Dustin Smith,50,chanjoseph@example.net,North Stephenside,OK,CREDIT
+CUST-DC42D0FE,Morgan Lozano,68,qsmith@example.com,Jacksonside,OK,CREDIT
+CUST-39EA1994,Elizabeth Ortega,76,gburton@example.net,Cassandraport,HI,CREDIT
+CUST-6F340D35,Jodi Collins,76,burnsdeborah@example.org,East Pamelaport,MN,CREDIT
+CUST-FA63B2C0,Victor Page,49,kingjeffrey@example.com,Kimberlyhaven,AR,CREDIT
+CUST-9F9B752F,Vanessa Martinez,22,ronald49@example.org,Higginsville,MT,CREDIT
+CUST-94E3C496,Kelly Richardson,35,nroberts@example.com,Rosston,PW,CREDIT
+CUST-C6B9863A,Rachel Robinson,48,fleach@example.com,Lake Michael,MP,CREDIT
+CUST-FCBFC9B4,Timothy Williams,19,lisanash@example.com,Carlosland,IA,SAVINGS
+CUST-4A54C352,Martha Bass,40,miranda04@example.com,West Robertfort,ND,CHECKING
+CUST-940FD2DC,Michelle Sullivan,40,jerry10@example.org,Lake Annaville,MO,CHECKING
+CUST-B75388DF,David Green,73,simsalan@example.org,Joshualand,SC,SAVINGS
+CUST-5068E191,Paula Jackson,80,watsonlaura@example.com,Gutierrezberg,WA,CHECKING
+CUST-E4C0AD89,Bryce Rodriguez,53,jenniferhayes@example.com,Douglasshire,VA,CHECKING
+CUST-BABACE72,Amanda Thompson,57,maryalvarado@example.com,Jacksonbury,NV,SAVINGS
+CUST-A2D7FB2B,Meghan Francis,68,careybob@example.net,Wendyburgh,MO,SAVINGS
+CUST-D436AA40,Regina Maynard,50,schwartzmichael@example.com,North Terri,OH,CREDIT
+CUST-D90FCCAF,Alisha Stone,39,emiller@example.org,Nicoleland,SD,SAVINGS
+CUST-627A4EAB,Joseph Gonzales,34,michelle63@example.com,New Lawrence,OK,SAVINGS
+CUST-D8E1C394,Brittany Brown,50,levyscott@example.net,Port Jessica,AK,CREDIT
+CUST-04E17889,Zachary Adams,45,davisdavid@example.net,Phillipsside,NM,CHECKING
+CUST-B1741B7B,Keith Miller,56,cathybowman@example.net,Danielchester,MH,SAVINGS
+CUST-B11F490C,Rebecca Sanchez,29,manuelthornton@example.org,East John,MD,CREDIT
+CUST-321DEF3A,Michael Jarvis Jr.,23,derek35@example.net,Ramosland,PA,CHECKING
+CUST-23D819B9,Christina Richardson,64,whitecourtney@example.net,Williamsfurt,HI,CHECKING
+CUST-E3A08E37,Jennifer Hoffman,60,ricejessica@example.com,Port Jeremiah,NV,CHECKING
+CUST-26A3B569,Kenneth Olsen,19,craigreyes@example.com,Robertsonville,IL,CREDIT
+CUST-77F7B40A,Raymond Perez,73,franklinevelyn@example.org,Stoutborough,MP,SAVINGS
+CUST-744DFA54,Rachel Chavez,57,mark99@example.org,South Jacqueline,ID,CHECKING
+CUST-E6AED8E7,Emma Mccormick,72,patriciabrown@example.org,Brianstad,NE,CREDIT
+CUST-E35A68FE,Benjamin Sanders,35,adam15@example.net,East Timothychester,AZ,SAVINGS
+CUST-68615BBD,Chase Copeland,80,batesjesse@example.org,West Ellenport,WY,CREDIT
+CUST-7CA7A11B,James Gilbert,61,cassandra30@example.org,Cindyberg,IA,SAVINGS
+CUST-8D460C5D,Charles Colon,63,sharonmitchell@example.org,Charlesfurt,VT,CREDIT
+CUST-86F1906F,Steven Hughes,26,davidmorgan@example.com,Walshmouth,AS,SAVINGS
+CUST-7A126DB0,Donald Moon,27,amanda56@example.org,Amyport,ID,CHECKING
+CUST-AA71066E,Jennifer Ramirez,60,pklein@example.net,Andrewsview,TX,CHECKING
+CUST-435D2A28,Deanna Miles,34,scottgeorge@example.com,New Williamton,MO,CREDIT
+CUST-FE7CF40C,John Tate,19,griffithjustin@example.net,Coopermouth,GA,CHECKING
+CUST-806EB50A,Phillip Mathis,53,tracyparker@example.com,Kelleyview,OK,CREDIT
+CUST-DE3918B7,Sophia Johnston,29,gcohen@example.net,West Felicia,AZ,CHECKING
+CUST-15A2573A,Emily Clark,34,yhunt@example.org,Port Alexisshire,TN,CHECKING
+CUST-4D823A98,Tim King,45,rchavez@example.org,North Joseph,TX,SAVINGS
+CUST-A503DFF1,Stephanie Hurst,52,gonzalesgabrielle@example.net,Port Amandaberg,KY,CHECKING
+CUST-2CF8B645,David Chavez,53,joseph54@example.com,Danielstad,NV,CREDIT
+CUST-6B572CB0,Carlos Roberts,26,smiller@example.com,Tanyabury,MT,CHECKING
+CUST-2303B5DC,Randall Thompson,55,brendaedwards@example.com,Cunninghamtown,IA,CREDIT
+CUST-7CCF4C2B,James Miles,63,vmoore@example.com,Stephanietown,MS,SAVINGS
+CUST-6B77D818,Diane Johnson,18,ccline@example.com,Port Michele,AZ,CHECKING
+CUST-FA83636A,Kathryn Lynn,44,qpacheco@example.org,Duartebury,PA,SAVINGS
+CUST-7C7E8822,Jacqueline Casey,56,juanlee@example.org,Kimport,MA,SAVINGS
+CUST-8B1A8BBF,Brian Bartlett,71,dbeard@example.org,Kellyhaven,MN,CHECKING
+CUST-EAC047DB,Marcus Jones,64,rshaw@example.org,Lake Benjamin,MT,CHECKING
+CUST-90BA29B1,Richard Martinez,19,aboyd@example.org,Kyleburgh,NE,SAVINGS
+CUST-442BC6CF,Angela Hoffman,44,dawnholt@example.com,Kristinatown,GU,SAVINGS
+CUST-18B2B84B,Lynn Beck,76,adam15@example.net,Markhaven,ID,CHECKING
+CUST-9AFCCB5E,Maria Thornton,55,warren63@example.net,South Joshua,NH,CHECKING
+CUST-D938D1EE,Debbie White,72,ecohen@example.org,West Tina,IN,SAVINGS
+CUST-0F11F521,David Gray,51,jeffrey14@example.org,Smithberg,VI,CHECKING
+CUST-EE8B9D32,Natasha Callahan,75,simmonsnicole@example.org,Port Courtney,ID,CHECKING
+CUST-02C02323,Brendan Wagner,40,karen16@example.org,Port George,VT,CREDIT
+CUST-FE63C957,Jeffrey Smith,58,christophermcgee@example.com,Michaelmouth,NM,CHECKING
+CUST-AA59478D,Jessica Pugh,68,byoung@example.net,West Bruce,KS,SAVINGS
+CUST-84207149,Brittney Wilson,76,vsnyder@example.com,New Christopher,AS,SAVINGS
+CUST-E938573E,Emily Owens,36,vlee@example.net,New Scottmouth,NV,CREDIT
+CUST-C8A5C8AE,Meagan Curry,68,shill@example.com,Lake Andrew,PW,CREDIT
+CUST-894D050E,William Bradley,60,kathrynduran@example.org,Millerborough,MI,CHECKING
+CUST-382DAF00,Tony Miller,32,xriggs@example.net,Davidmouth,SD,CREDIT
+CUST-AE346CFB,Tyrone Tucker,21,singheric@example.com,Port Christinefort,MP,CREDIT
+CUST-C9FF2963,Kevin Petersen,67,anthonyclark@example.net,Maryport,PR,CREDIT
+CUST-FF171C6F,Jennifer Ramirez,51,trandonald@example.net,East Ricardo,WA,CHECKING
+CUST-16DF44D6,Robert Nguyen,47,fhumphrey@example.com,South Robertport,KY,CREDIT
+CUST-4027A71C,Steven Ramirez,65,xthomas@example.net,Port Annette,ID,CHECKING
+CUST-E2B57ECD,Matthew Hale,78,qknight@example.org,New Susanport,ID,SAVINGS
+CUST-78E597E3,Adam Burke,59,jermainebrown@example.net,Timothyton,CO,CHECKING
+CUST-E941CC8E,Christian Jacobs,34,samuelwilkerson@example.net,North Tammymouth,KS,CREDIT
+CUST-4F8E1383,Lori Wright,47,barnetttiffany@example.net,South Tommy,AL,SAVINGS
+CUST-FF9F39E2,David Herrera,72,jessicafisher@example.com,Rossshire,CA,CHECKING
+CUST-61C6373A,Eric Chandler,48,lkelly@example.net,Santiagobury,CO,CREDIT
+CUST-4F3FDB09,Jessica Hernandez,32,castrocassandra@example.net,Lawrenceport,MP,CREDIT
+CUST-05C134B3,Sydney Berg,74,alan68@example.com,Brianfurt,ME,SAVINGS
+CUST-D15DB715,Jessica Wang,42,kathrynwilliams@example.com,Lake Jillchester,OK,CREDIT
+CUST-AC11690D,Rachel Young,58,elee@example.net,North Lindabury,VA,SAVINGS
+CUST-24A1F9C5,Laura Morrow,30,kimheidi@example.org,North Adambury,WA,SAVINGS
+CUST-919EC429,Stephen Sanchez,54,mathewskatherine@example.net,Christineburgh,DE,CHECKING
+CUST-53B097B3,Caleb Stewart,35,perkinskathryn@example.com,Jasonchester,PR,CREDIT
+CUST-D982DBBF,Garrett Stewart,40,mckeejames@example.net,Shawnview,FM,CREDIT
+CUST-4B89B9B0,Mark Wong,76,natalie19@example.org,Clarktown,NE,CHECKING
+CUST-C8CED3AE,David Ellis,40,qflores@example.org,North Darlenemouth,TN,CREDIT
+CUST-CAC4DDD1,Kelsey Miller,34,kendragonzales@example.com,New Krystal,VA,CREDIT
+CUST-D4536CC4,John Charles,23,fdavis@example.net,Longburgh,WV,SAVINGS
+CUST-00F0FAED,Susan Kim,64,johnrodriguez@example.com,Lake Bryantown,VA,CREDIT
+CUST-84F732B1,Megan Smith,37,pramirez@example.org,Shirleyside,WV,CREDIT
+CUST-1440CF36,Michael Ali,62,sschwartz@example.com,Grahamstad,NY,CREDIT
+CUST-1340B25A,John Evans,75,ydunn@example.com,Lake Morganside,WY,SAVINGS
+CUST-2581DE34,Ryan Graham,47,greenantonio@example.com,Port Nicoletown,CO,CHECKING
+CUST-062030DC,Mark Spears,75,shepherdjulie@example.net,Carriemouth,DC,SAVINGS
+CUST-55A41D8C,Isaac Hart,56,flowersalexis@example.com,Cookhaven,OK,SAVINGS
+CUST-13271C5C,David Williamson,52,yholder@example.org,Riveraside,NC,CREDIT
+CUST-79A23013,Steven Rodriguez,52,hessrebecca@example.org,South Joseph,AL,CHECKING
+CUST-9872D0D4,Sheila Davenport,22,qallen@example.org,Tinaport,NE,SAVINGS
+CUST-4726BB04,Sheryl Dougherty,80,kenneth34@example.org,West Chadville,MA,CREDIT
+CUST-F219998D,Crystal Gomez,53,schwartzryan@example.org,Lake Keith,SD,CREDIT
+CUST-FFD00C16,Caleb Rodriguez,53,lisarussell@example.net,Port Linda,SC,CHECKING
+CUST-FD349BDD,Michael Simpson,49,davidsonalexander@example.net,Lake Kelly,SD,CHECKING
+CUST-CE68E332,Olivia Ortiz,22,vsmith@example.net,New William,WY,CHECKING
+CUST-BB23F567,Michelle Gardner,58,kelleydeborah@example.com,Sherryfort,DE,CHECKING
+CUST-E3FC58EE,Clarence Ward,74,ycameron@example.com,Reedshire,LA,SAVINGS
+CUST-8995EC70,Miss Melissa Ryan DDS,31,wheath@example.net,West Susan,NE,CREDIT
+CUST-321ACBA6,John Richards,51,austinkrystal@example.net,Murphyburgh,VI,SAVINGS
+CUST-FF580417,Robert Tyler,31,zbyrd@example.com,Port Cameronfurt,DC,CHECKING
+CUST-63816EA5,Darrell Blackburn,50,jennabrown@example.com,Zhangport,SD,SAVINGS
+CUST-BC5943B5,Gregory Burns,33,eroberts@example.com,Cynthiaport,MO,CHECKING
+CUST-27B6E8BC,Teresa Hernandez,41,amber80@example.net,Hammondville,NE,SAVINGS
+CUST-57FDF6A4,Alejandro Jackson,52,james39@example.org,Diazfort,AL,CREDIT
+CUST-80A45158,Lindsay Fisher,51,lauriefisher@example.net,Port Philipshire,NE,SAVINGS
+CUST-4EF20865,Adam Johnson,61,caseydouglas@example.net,Timothytown,AZ,CHECKING
+CUST-73AE2F0C,Sara Best,19,webbjonathan@example.org,Lake Charlottechester,IA,SAVINGS
+CUST-ED722D5B,Linda Sheppard,18,heather71@example.org,Briannafort,IN,CREDIT
+CUST-C8031432,Amy Willis,37,scottbenson@example.com,Mckayborough,NH,SAVINGS
+CUST-5241B66B,Hannah Lopez,66,jeff13@example.com,Port Oscarchester,WA,CHECKING
+CUST-341B16C1,Jessica Brown,28,andre66@example.org,East Stephanieburgh,GA,SAVINGS
+CUST-3255CF51,Christina Nicholson,61,jason47@example.org,New Teresa,TX,CHECKING
+CUST-E5D26233,Glenn Smith,30,william47@example.org,Silvaville,NC,CHECKING
+CUST-257B484E,Connie Wang,31,kelly44@example.net,Crystalbury,IA,CHECKING
+CUST-E032C338,Seth Ford,18,clambert@example.org,North Juliaport,DE,SAVINGS
+CUST-257E18B2,Anna Obrien,34,natalie51@example.com,South Jessica,AK,SAVINGS
+CUST-CBA502AA,Ruben Jordan,44,pmclaughlin@example.net,Davisborough,DE,CHECKING
+CUST-0F3A4F39,Ian Hawkins,33,petersonwilliam@example.net,Andersonstad,VT,CHECKING
+CUST-AE16183C,David Foster,59,robert93@example.com,Jacksontown,SD,CHECKING
+CUST-03A5CA92,Emily Glover,74,boydaaron@example.com,New Rickyburgh,IA,CREDIT
+CUST-DEB6B150,Bethany Turner,51,johnsonkathryn@example.com,Rodriguezport,PA,SAVINGS
+CUST-1EE6B9C0,Tony Craig,67,livictor@example.com,Petersonstad,MD,CHECKING
+CUST-EBEB93EE,Julie Young,39,omar08@example.net,West Luisport,CA,CREDIT
+CUST-8CE30B0F,Alvin Edwards,38,igonzalez@example.net,Dustinside,MI,SAVINGS
+CUST-DD18D4BA,Thomas Robinson,41,oduncan@example.com,Aguilarburgh,CT,CHECKING
+CUST-2E8FF629,Mitchell Woodward Jr.,67,kimberlyblake@example.net,West Bradley,VI,CHECKING
+CUST-361A6753,Hayley Eaton,67,edwarddixon@example.com,Janetmouth,RI,CREDIT
+CUST-F3677C35,Alyssa Torres,31,whitneyjohnson@example.com,South Mark,MD,CREDIT
+CUST-0BE59A35,Samantha Sweeney,48,michael50@example.com,West Gregory,NJ,CREDIT
+CUST-477FEFFC,Catherine Vega,55,bendermary@example.org,Lake Shirleybury,DC,CHECKING
+CUST-BFD5CC72,Billy Beck,55,twebb@example.net,East Courtney,MP,CHECKING
+CUST-DBA97205,Peggy Scott,75,santiagoalicia@example.net,Drewton,NM,CREDIT
+CUST-1326DD4C,John Chapman,45,brian83@example.com,Jillianland,CT,CHECKING
+CUST-EBB92A5A,Steven Lawson,59,mary82@example.net,Elizabethside,PR,CREDIT
+CUST-32CCB661,Kenneth Young,73,philliplewis@example.com,Turnertown,IN,CHECKING
+CUST-8D586E90,Robert Ramsey,72,marcusrice@example.net,Boydbury,GU,CREDIT
+CUST-80964245,Karen Allison,19,tammy57@example.net,Elizabethview,WA,SAVINGS
+CUST-CB8831A2,Rickey Clark,71,hallgary@example.org,Danielleland,IA,CHECKING
+CUST-E78AEC46,Maria Robinson,78,upatton@example.org,West Saraville,DE,CHECKING
+CUST-794475D7,Carrie Rodriguez,57,kevingardner@example.net,Danieltown,AK,CREDIT
+CUST-77BECA25,Tiffany Graves,76,katiehansen@example.net,New Leslie,KY,SAVINGS
+CUST-A2A995FD,Kathy Martinez,33,shirley56@example.net,Lake Christopherside,ND,CREDIT
+CUST-F440750F,Darlene Farmer,61,smithdeborah@example.com,North Clintonside,ND,CHECKING
+CUST-1B7E5F38,Brittany Moses,49,cameronmartinez@example.net,West Michael,WY,CHECKING
+CUST-812372E7,Katrina Mckay,72,robert96@example.org,Port Sarah,MT,SAVINGS
+CUST-9C7F113C,Stephanie Rivera,55,zsmith@example.org,New Emilyshire,HI,SAVINGS
+CUST-D953C28F,Monica Moore,73,jmorrison@example.com,Chapmanside,NM,CHECKING
+CUST-88410A30,Richard Harris,49,nbailey@example.org,Zacharyfurt,WV,SAVINGS
+CUST-00DD3728,Ryan Anderson,20,rachel84@example.org,Lake Matthew,AL,CREDIT
+CUST-83D149F9,Shelly Perez,28,bonillajennifer@example.net,Judymouth,VA,SAVINGS
+CUST-989B2EEC,Ronnie Reeves Jr.,41,rogersjessica@example.com,Cookhaven,LA,CREDIT
+CUST-FF57E3BF,Zachary Ballard,34,tdavis@example.com,North Melissa,OK,SAVINGS
+CUST-F98A8AD4,Joanna Gonzalez,58,walkeramanda@example.com,Joneshaven,VT,CHECKING
+CUST-20112C0D,Tiffany Cooper,43,hinesmelissa@example.com,Scottburgh,NM,SAVINGS
+CUST-65E3B78A,Carla Myers,18,margaretdelgado@example.net,New Jeffreystad,AS,CREDIT
+CUST-6CBD66E0,Victoria Parker,62,hensleyjoseph@example.org,New Jason,AZ,CHECKING
+CUST-892E8D2E,Daniel Garcia,69,jennifersalazar@example.org,Port Tracy,AR,CHECKING
+CUST-73474363,Mark Smith,59,aliciagraves@example.net,Jasminetown,CT,CHECKING
+CUST-A19FC747,Jesse Rodriguez,38,fbaker@example.org,Jeffreymouth,SC,CHECKING
+CUST-63D0D55D,Stephanie Thompson,48,shannon32@example.org,Sanchezburgh,SD,SAVINGS
+CUST-C9C94AF9,Mark Cisneros,38,christopherwebb@example.com,Samuelside,AL,CREDIT
+CUST-68FA2EFA,Joseph Ramsey,75,lauren64@example.org,Hillfort,VA,CHECKING
+CUST-A22704FC,Rachel Brooks,61,hmoore@example.org,East Jacobberg,NH,CHECKING
+CUST-4A2510D7,Eric Booth,76,duncannicole@example.org,Port Timothy,AR,CHECKING
+CUST-715ED5A1,Aaron Smith,49,norman75@example.org,South Lauren,TN,SAVINGS
+CUST-A0188CF2,Latoya Robinson,29,tjohnson@example.com,Victoriaborough,GA,SAVINGS
+CUST-DFC0CA70,Thomas Gregory II,59,pagegwendolyn@example.org,Christopherport,MT,SAVINGS
+CUST-92A9F796,Katherine Rodriguez,37,odixon@example.net,Beanchester,OR,SAVINGS
+CUST-AAFA2648,Deborah Williams,28,williamsrhonda@example.net,Mcdowellburgh,ID,CREDIT
+CUST-75827102,Ian Burton,64,gcarlson@example.net,Fullerfurt,MA,CHECKING
+CUST-864BC08C,Patty Collins,56,lbanks@example.com,Port Maria,MI,CREDIT
+CUST-7957989B,Mrs. Lisa Williams,27,kathrynknight@example.net,South Jeffrey,FL,CREDIT
+CUST-640E5D1B,Sean Smith,54,melissa82@example.net,Mahoneyburgh,WA,SAVINGS
+CUST-ADF38967,Carrie Watson,68,kevin73@example.org,Frenchton,GA,SAVINGS
+CUST-CFB22D5F,Veronica Dougherty,30,kelly72@example.net,East Thomas,LA,CREDIT
+CUST-E8D14D56,Paul Nelson,24,joshuamoss@example.com,Markborough,OR,SAVINGS
+CUST-E400E621,Jon Gonzalez,25,marmstrong@example.org,Hendricksburgh,OR,CREDIT
+CUST-EF0E5C7F,James Lopez,33,ldiaz@example.net,Lawrencehaven,WV,SAVINGS
+CUST-F7504C05,Jennifer Meadows,56,rhull@example.org,Lake Matthew,IL,SAVINGS
+CUST-4AC1C6B8,Marcus Brooks,76,townsendamy@example.org,New Lindseyport,GU,CHECKING
+CUST-D60610EF,Andres Odom,39,mcdonaldshannon@example.com,North Samuelmouth,HI,CREDIT
+CUST-93593A2D,Diana Boyle,74,curtiselizabeth@example.org,Port Valerie,GA,CHECKING
+CUST-9FFCA9DE,Jessica Baker,45,jryan@example.net,New Elizabeth,GU,CHECKING
+CUST-A54E86CB,James Smith,72,olove@example.com,Craighaven,CO,CREDIT
+CUST-3E395070,Daniel Diaz,78,christopherarellano@example.com,Leeborough,CO,SAVINGS
+CUST-CF4B085B,Dana Bailey,47,bhood@example.org,North Jaredmouth,GA,CREDIT
+CUST-AE1F65CD,Joseph Mills,40,mary87@example.org,Stevenbury,ME,CHECKING
+CUST-6ABBC4B6,Ronald Gross,65,ryan21@example.org,Roberthaven,VT,SAVINGS
+CUST-24760554,Danielle Miller,65,stevenslindsay@example.org,Lake Richard,AR,CHECKING
+CUST-A601A294,Christina Molina,76,michellecastillo@example.org,Jillianshire,PW,CHECKING
+CUST-96EEB76D,Michelle Hicks,24,joseph55@example.org,East Josephside,ID,CREDIT
+CUST-5C4C6C62,Brittany Ellis,42,philip35@example.com,Maloneland,ND,SAVINGS
+CUST-2A4BC2E3,Brooke Buchanan,76,bparker@example.org,Andrewview,RI,SAVINGS
+CUST-EF821286,Lindsay Gonzalez,51,kevin93@example.com,South Emilystad,WV,SAVINGS
+CUST-2B6CBB87,Carlos Lambert,62,jmaddox@example.com,Spencerside,PA,SAVINGS
+CUST-39B65FD5,Lauren Carpenter,39,kiddbradley@example.com,Stevenborough,VI,CHECKING
+CUST-8D1B556F,Michael Carrillo,26,wileyscott@example.org,Whitneymouth,PA,SAVINGS
+CUST-70B6BB7F,Cheryl Riley,21,shane79@example.org,Singhmouth,VA,CREDIT
+CUST-C9D3EF1B,Kristen Krause,70,fmoore@example.org,North Johnborough,AR,CREDIT
+CUST-DBAEBCC1,Alison Benton,34,ryan22@example.org,East Laurashire,IA,CHECKING
+CUST-F1872DAB,Jessica Oliver,65,iedwards@example.com,Lake Johnland,OR,CREDIT
+CUST-82F34FCB,Kathleen Cameron,20,xgordon@example.org,Edwardfort,FL,SAVINGS
+CUST-DCB8A507,Kelly Hernandez,60,antoniowhite@example.net,Danielberg,FM,CREDIT
+CUST-E7E400A8,Krista Cole,18,tmartin@example.com,Lake Brittanychester,KS,SAVINGS
+CUST-0E09D154,Samantha Melton,47,holmeselizabeth@example.org,South Richardchester,PW,CREDIT
+CUST-D7D1AEA5,Christopher Hendricks,48,qblack@example.org,Tracychester,RI,CHECKING
+CUST-2B94D792,David Ross,76,bridget59@example.com,East Dawnchester,NV,CREDIT
+CUST-2036786F,Amy Herrera,57,nwilson@example.com,Lake Jason,MP,CREDIT
+CUST-E5EDC053,Valerie Perry,19,ehoward@example.net,East Jeffreyshire,HI,CREDIT
+CUST-710E8F06,Shari Hayes,35,tjohnson@example.net,Cheyennetown,ME,SAVINGS
+CUST-B9595E01,Richard Johnson,21,harveywilliam@example.com,South Katieside,RI,CREDIT
+CUST-7C90839C,Alison Vargas,44,jenkinsreginald@example.net,Morganburgh,GU,CREDIT
+CUST-7A7C9120,Jack Smith,72,josephlane@example.net,Sarahtown,IA,CHECKING
+CUST-9F364660,Martin Garza,76,johnstonmaurice@example.org,Summerhaven,PR,CREDIT
+CUST-B8719CF5,Cody Wilson,40,sanchezsteven@example.com,Doylebury,NC,SAVINGS
+CUST-F6B2E509,Crystal Jordan,60,beth27@example.net,Lake Mitchellstad,OR,SAVINGS
+CUST-2FD04911,Paul Mcbride,22,asanders@example.org,Royhaven,IL,CHECKING
+CUST-9EFCA6EE,Gregory Castillo,77,shepardyolanda@example.com,West Rachelfort,NY,CHECKING
+CUST-E2472481,William Heath,66,zlee@example.org,Hamiltonton,AR,CREDIT
+CUST-08CB2D58,Erica Obrien,37,angelajohnson@example.org,Moralesport,TX,SAVINGS
+CUST-FBCB10F1,Mrs. Stephanie Moore,36,maxwelltimothy@example.com,Christyview,MH,SAVINGS
+CUST-05D36679,Gary Johnson,50,kylezimmerman@example.org,Josephberg,TX,CHECKING
+CUST-FD7B0644,Michelle Hines,21,karen71@example.org,Pattersonfort,TX,SAVINGS
+CUST-079E1B41,Roger Todd,61,richardrosales@example.net,Coryport,IL,SAVINGS
+CUST-6F54AE66,Jacob Smith,48,alexisreed@example.net,Vernonchester,NY,CHECKING
+CUST-69538C86,Daniel Richardson,33,lisamartinez@example.com,North Jeremy,NV,SAVINGS
+CUST-24FE9131,Peter Allen,44,gbradford@example.org,Port Toddport,WA,CHECKING
+CUST-75DFC0DF,Shawn Smith,36,livingstondavid@example.com,Nelsonfort,ME,CREDIT
+CUST-FDE56974,James Johnson,74,jackrodriguez@example.org,Mezamouth,AS,CHECKING
+CUST-205CE217,Elizabeth Velasquez,71,clintonfox@example.org,Wrightland,LA,CHECKING
+CUST-46C62D76,Casey Brown,62,jeffrey03@example.net,East Bryantown,PW,CREDIT
+CUST-FF2840B3,Heather Cannon,52,lbaker@example.com,Brownmouth,NY,CHECKING
+CUST-FAC7D5EF,Monica Castro,49,xjohnson@example.com,Taylorberg,CA,SAVINGS
+CUST-45A8DE31,Jessica Thomas,58,johnbailey@example.net,South Dylanchester,IL,CREDIT
+CUST-96FE116C,Paula Weaver,60,michelle09@example.net,Phillipsbury,IL,CREDIT
+CUST-35B627F0,Mark Estrada,37,michaelsmith@example.com,North Kaitlynland,CA,CREDIT
+CUST-F22309E5,Rebecca Eaton,64,katherine78@example.net,Thompsonton,MO,CHECKING
+CUST-EED46B33,Michelle Garrett,50,emily97@example.net,New Timothymouth,OR,CREDIT
+CUST-DBB7ABC2,Kevin Williams,67,hbaxter@example.com,North Mary,IN,CHECKING
+CUST-91E988B9,Brittney Mcgrath,71,johnwashington@example.org,Bakerhaven,TX,CREDIT
+CUST-42B625C5,Rebecca Thompson,44,rhanna@example.com,South Lisa,NE,CHECKING
+CUST-5E5DD5AB,Robert Smith,67,orangel@example.org,East Gwendolynton,GU,CREDIT
+CUST-1082BEBE,Emily Martinez,79,josephmann@example.org,Port Kaylafort,HI,SAVINGS
+CUST-47B2E62C,Joe Villegas,52,courtneygonzalez@example.com,New Andrew,PA,CHECKING
+CUST-873FA395,Ricky Hamilton,37,bradleyjohnson@example.net,Port Lesliefort,ND,SAVINGS
+CUST-7866B543,Elizabeth Smith,52,meganhenry@example.org,New Joy,WA,CHECKING
+CUST-4468CB9A,Mr. Matthew Huynh IV,33,jonathan42@example.net,New Christinebury,NH,SAVINGS
+CUST-1E3E065B,Chad Cameron,54,raventhompson@example.com,New Marthaview,IN,CREDIT
+CUST-465F3B7B,John Lewis,76,heather15@example.org,East Katie,NH,CREDIT
+CUST-1E5AE413,Aaron Crawford,62,jamesmelissa@example.org,Robertmouth,CA,CREDIT
+CUST-FE2A9927,Stephanie Valencia,57,jamessherman@example.org,New Lucas,CO,SAVINGS
+CUST-0930BC2B,Donna Miller,58,jose83@example.org,Stephaniestad,MP,CREDIT
+CUST-F1738546,Elizabeth Beck,69,kelly27@example.net,North Jackland,LA,SAVINGS
+CUST-3F5D52A7,Jennifer Garcia,27,thomascarr@example.com,Dakotaview,GU,CREDIT
+CUST-F723DA39,Erica Martinez,71,jonesdominic@example.net,Raystad,IL,SAVINGS
+CUST-E8B0FF63,Ebony Craig,72,kfarrell@example.com,Lynnport,NC,CREDIT
+CUST-463CFCFF,Andre Davis,37,listacy@example.org,Lawsonmouth,CT,CREDIT
+CUST-7694EB20,Connor Brown,57,prichards@example.net,South James,GA,SAVINGS
+CUST-09D3DB65,Alison Sutton,57,porteremily@example.org,New Javiermouth,NC,CREDIT
+CUST-C04C7497,Mary Mcbride,41,jmiller@example.com,South Courtney,OK,SAVINGS
+CUST-5150BC7C,Brandy Carter,39,josephgordon@example.org,South Tina,VA,CREDIT
+CUST-ECE22CF8,Taylor Stuart,71,elizabethburton@example.net,Lake Tylerfort,MA,CREDIT
+CUST-DCB6C5A4,Shane Martinez,55,nicholaskennedy@example.net,Lauraborough,AS,CHECKING
+CUST-BAF917AA,Mark Taylor,31,moranisaac@example.org,East Robert,NM,SAVINGS
+CUST-6BE18C07,David Franklin,20,bvasquez@example.net,South Jamesside,FM,CHECKING
+CUST-0355609F,Belinda Clark,71,aaronrodriguez@example.org,Wongton,TN,SAVINGS
+CUST-C1DD6C24,Penny Price,18,jason07@example.com,West Allison,OH,SAVINGS
+CUST-A55BB358,Connie Crawford,43,fstephens@example.com,New Nicole,IN,CREDIT
+CUST-13104732,Tanya Mcdaniel,52,ihale@example.net,New Matthew,IA,SAVINGS
+CUST-E21A2D46,Nancy Le,56,kristina85@example.org,West Matthewfort,PW,CHECKING
+CUST-9148D2D8,Christina Hutchinson,40,dustinwhite@example.com,Erikburgh,SC,CREDIT
+CUST-713C8DCF,Bradley Whitaker,43,garciashirley@example.org,North Eileenshire,MN,SAVINGS
+CUST-1B1C49C2,Julie Thompson,21,vedwards@example.net,East Melissa,PW,CHECKING
+CUST-4DD9F411,Jenna Russell,56,lindabryant@example.com,South Kayla,IA,CHECKING
+CUST-CCA9A61C,Cynthia Snow,69,clopez@example.net,South James,GU,SAVINGS
+CUST-8D003A02,Daniel Nichols,23,adam27@example.com,East Steven,NY,CREDIT
+CUST-96D1889F,Jonathan Wilson,52,bmcguire@example.com,Jenniferborough,PW,SAVINGS
+CUST-73CD1A35,Daniel Turner,80,diana05@example.com,Port Timothyville,AS,CREDIT
+CUST-B3C8E52A,David Davis,46,wrusso@example.org,North Carolynmouth,HI,CHECKING
+CUST-D9755359,Elizabeth Davis,18,schneiderkelly@example.com,East Christopherberg,MH,CREDIT
+CUST-D882819E,Denise Anderson,73,njohnson@example.com,Tiffanyberg,VI,SAVINGS
+CUST-91B71237,Brandon Davis,18,jenniferjackson@example.org,Lake Ashleyview,WA,CHECKING
+CUST-D85F0023,Shelby Lowe,49,berrybenjamin@example.com,Port Sarahville,ME,SAVINGS
+CUST-2465CF02,Blake Campos,65,tolson@example.net,North Moniqueport,MP,SAVINGS
+CUST-46D8C1AA,Lisa Davis,70,morannathan@example.com,South Michaelfurt,UT,SAVINGS
+CUST-9F4117C8,Gerald Trujillo,77,mariahfuller@example.org,Rachelfurt,SD,CREDIT
+CUST-CCFB18A8,Tracy James,63,ryan84@example.net,Randallville,DC,CREDIT
+CUST-0C3C7E78,Kelly Wood,62,mcfarlandmelinda@example.org,Rebeccaview,OR,CREDIT
+CUST-86327C13,Micheal Whitehead,53,paynetravis@example.com,Port Philipborough,NM,SAVINGS
+CUST-CD9658AC,Elizabeth Burnett,58,toddthomas@example.com,East Scott,IL,CREDIT
+CUST-49D196D6,Sharon Anderson,22,hayesjuan@example.net,Josephton,SC,SAVINGS
+CUST-34E0FB71,Terrance Johnson,65,mblack@example.com,Beverlyton,DC,SAVINGS
+CUST-AF88A4C9,Daniel Chandler,20,james50@example.com,Jenniferborough,NM,CREDIT
+CUST-C6348B44,Jessica Jefferson,46,josephholloway@example.net,East Kimberly,NH,CHECKING
+CUST-0F48A350,Lisa Mendoza,53,gsmith@example.org,Lake Vincentchester,MD,CHECKING
+CUST-8E68562F,Ryan Rodriguez,68,matthewsraymond@example.net,North William,AK,SAVINGS
+CUST-4D03D062,Ryan Johnson,63,franklincharles@example.com,Grantport,HI,CHECKING
+CUST-4E3EEB3E,Jake Douglas,45,havila@example.net,Lake Mariaton,LA,SAVINGS
+CUST-363E84E2,Jamie Ashley,49,fordjason@example.net,Lake Matthewfort,NM,CREDIT
+CUST-46C38A79,Jeffery Lawrence,78,jacquelinemartinez@example.org,Port Teresaview,NM,CREDIT
+CUST-390DBA11,Samantha Sanchez,72,escott@example.com,Joshuashire,VI,CREDIT
+CUST-CE4CF47A,Brittany May,64,bryan62@example.com,East Maryhaven,TX,CREDIT
+CUST-24BBF647,Denise Beltran,76,nicolas79@example.com,West Kathyshire,HI,CREDIT
+CUST-AF02BF71,Kayla Mills,33,pwebster@example.org,North Jeremiah,PA,CHECKING
+CUST-0532B226,Brittney Sanders,56,ptyler@example.org,South Connie,WV,CREDIT
+CUST-B10708E7,Jeffrey Lopez,53,aaron70@example.com,Kyleborough,AZ,CREDIT
+CUST-0767E2EF,Jesse Ramirez,35,evansmith@example.net,North Tanya,MI,SAVINGS
+CUST-8E89A6CE,Dwayne Molina,59,qblair@example.com,Lake Alexis,CO,CREDIT
+CUST-D0FE17F1,Madison Carpenter,68,rebecca70@example.com,Riverastad,PA,SAVINGS
+CUST-D5E31FD6,Julie Ayers,79,coxmichele@example.com,South Samuelshire,OK,CHECKING
+CUST-1F3FA72C,Patricia Logan,24,kellyyoung@example.com,New David,GU,CHECKING
+CUST-38869314,William Woods,45,xhicks@example.net,East Maryborough,KY,SAVINGS
+CUST-67068664,Jeffrey Turner,34,harringtonjoseph@example.org,West Emily,WY,CHECKING
+CUST-ECCD54D3,Bill Davila,52,mariaterry@example.com,East Jessicaton,IA,CREDIT
+CUST-6778CA69,Trevor Barrera,79,frank91@example.net,Rojashaven,NH,CHECKING
+CUST-994A6AD7,Scott Norris,55,brownrichard@example.com,West Crystalville,PW,SAVINGS
+CUST-8CF80A0C,Larry Proctor,77,matthewberg@example.org,Smithville,ME,CREDIT
+CUST-F1E3C6A2,Robert James,43,bmartin@example.org,Lake Austinberg,PR,CREDIT
+CUST-026F7095,Shannon Duncan,33,candacejenkins@example.net,Wardburgh,MH,CREDIT
+CUST-DC129EF4,Kristina Ellis,71,michael47@example.com,Taylorburgh,TN,CHECKING
+CUST-18DED113,Deborah Stokes,24,jessicacombs@example.org,East Scottfurt,IA,CREDIT
+CUST-D3D34704,Heather Peterson,35,lchase@example.net,Jasonhaven,NH,CHECKING
+CUST-5A72D10B,Christopher Freeman,56,maxwellevan@example.net,East Robin,SD,CHECKING
+CUST-138DD6FE,April Anderson,77,richardhoward@example.net,Perezfurt,NE,SAVINGS
+CUST-105CCD8A,Ernest Pennington,76,justinhernandez@example.net,West Michaelshire,UT,CHECKING
+CUST-CCA5B72D,James Davis,25,hilljames@example.com,Sharonview,NH,CREDIT
+CUST-2833C408,Douglas Wells,30,pberry@example.org,Lake Kaitlynmouth,DC,CHECKING
+CUST-9F66E77B,Michele Rogers,73,cristian75@example.net,West Dillonhaven,CA,SAVINGS
+CUST-34F9F0F9,Kimberly Nelson,72,slopez@example.com,South Jenniferborough,AR,CHECKING
+CUST-5A672BF0,Steven Leonard,20,toddcruz@example.org,Geraldmouth,MT,CHECKING
+CUST-E27D5884,Jorge Ellis,62,fernandezyesenia@example.com,Lake Joshua,OR,CHECKING
+CUST-E2F66D0A,Trevor Johnson,76,zfoster@example.net,Danielton,ND,CHECKING
+CUST-8303C9B4,Marcus Snyder,65,lcisneros@example.org,Walshbury,AL,CHECKING
+CUST-F14BB297,Christine Hoffman,55,davidsmith@example.org,Davieshaven,CA,SAVINGS
+CUST-7012A4D4,Michael Alexander,21,mcdanieldonna@example.net,North Joelburgh,MD,CHECKING
+CUST-A97AB2FF,Philip Walton,79,jstewart@example.com,Lake Rhondaland,OH,CHECKING
+CUST-0E475AEB,Nancy Smith,20,scott34@example.org,South Scottshire,IN,CHECKING
+CUST-86E2E047,Tracy Moore,75,helen07@example.net,Yorkport,UT,CREDIT
+CUST-31E5344E,Eduardo Castro,60,adamsjohn@example.net,East Connie,AR,CHECKING
+CUST-FA12A221,Darrell Arnold,39,vgreen@example.org,North Oliviaton,AZ,SAVINGS
+CUST-B3739F46,Mrs. Jennifer Aguilar,75,matthew36@example.net,Escobarbury,MS,SAVINGS
+CUST-32D705D5,Vanessa Williams,70,gvargas@example.net,Amymouth,KY,CHECKING
+CUST-4355D492,Thomas Byrd,24,batkinson@example.org,Kristinehaven,VA,SAVINGS
+CUST-0ECD77C3,Heather Frazier,61,haydensanchez@example.org,Paulaburgh,NH,CREDIT
+CUST-60BAA93C,Matthew Wolf,64,pphillips@example.com,East Elizabeth,NV,SAVINGS
+CUST-48AA366D,George Beard,45,alexanderharris@example.net,Josephfort,AK,CREDIT
+CUST-80839EB7,William Palmer,31,anita14@example.org,East Joseph,SC,CHECKING
+CUST-C3708F3B,Samantha Bentley,66,morrisjeffery@example.net,South Coreyburgh,AZ,SAVINGS
+CUST-E7CB604A,Anita Hampton,58,jacob94@example.net,East Andrew,MI,CHECKING
+CUST-B64C5E60,James Wade,54,sarah94@example.org,Barnettfurt,MI,SAVINGS
+CUST-E88344AE,Gwendolyn Hutchinson,48,kristenatkinson@example.com,South Michelle,AS,CREDIT
+CUST-FA5F5AFC,Kayla Mitchell,62,ztaylor@example.org,Matthewshire,IL,SAVINGS
+CUST-BF988088,David Lynch,64,victoria18@example.com,Tracyland,MT,CREDIT
+CUST-CA94E000,Michelle Schultz,34,foxchristopher@example.com,New Tinashire,FL,CHECKING
+CUST-AE44925B,Sandra Robinson,72,theresajackson@example.com,New Emily,FL,CHECKING
+CUST-29799858,Maria Horton,24,woodwardkathleen@example.net,Lake Judy,OK,SAVINGS
+CUST-D85456E1,Billy Clark,29,schmidtnicholas@example.org,Lake Blake,UT,SAVINGS
+CUST-B41301A7,Angela Soto,47,washingtonkim@example.org,New Erinbury,KS,CREDIT
+CUST-0BA24567,Jenna Kelly,59,elizabethdavis@example.org,Ryanberg,PA,SAVINGS
+CUST-70FA5764,Anthony Williams,39,karen71@example.org,South Kellyhaven,TN,SAVINGS
+CUST-5EECD294,Joseph Phillips,34,danielsrichard@example.net,South Natalieborough,UT,CREDIT
+CUST-22BE541C,Whitney Griffin,70,daltonmichael@example.net,Port Kristaberg,WY,SAVINGS
+CUST-18642198,Timothy Clark,80,ashleedavis@example.net,Ericksonfurt,VI,CREDIT
+CUST-51A28BF4,Troy Rose,22,tnguyen@example.net,South Nicoleborough,CA,SAVINGS
+CUST-9BB22FC4,Mr. Thomas Rose DDS,51,carrolldavid@example.net,Michaelton,WY,SAVINGS
+CUST-E34516EF,Jason Brown,18,brandonrivera@example.net,Herrerastad,UT,CREDIT
+CUST-4EA96E42,Sara Obrien,43,robertwilliamson@example.com,New Valerieburgh,AZ,CREDIT
+CUST-D42B4CCF,Jacob Conway,30,cparker@example.org,Markville,HI,CREDIT
+CUST-EB04A68F,Carrie Nichols,62,jamesalexander@example.net,West Stephanieside,WI,SAVINGS
+CUST-C44F7872,Mrs. Gloria Ramos,18,pamelacooper@example.com,Yoderchester,FL,SAVINGS
+CUST-0F2AE798,Russell Noble,46,stephaniecampbell@example.org,North Brittany,TN,CHECKING
+CUST-F29862ED,Joe Lewis,18,zthompson@example.org,North Melissa,CA,CREDIT
+CUST-18774E87,Jessica Harris,33,vchristian@example.com,Ryanview,WY,SAVINGS
+CUST-256FA241,Johnny Lawson,66,kathryn91@example.org,Port Brandi,MS,CHECKING
+CUST-2AAEB903,Dr. Jennifer Young MD,39,ulyons@example.com,Shannonburgh,OR,CHECKING
+CUST-2EB8A169,Crystal Jones,46,sandracordova@example.net,Port Brianport,MD,SAVINGS
+CUST-A6AFD3BE,Alicia Brown,71,carolsantos@example.net,Kingfort,AK,CREDIT
+CUST-5E8F0336,Katherine Kim,28,brownemily@example.com,Huffview,ID,SAVINGS
+CUST-273EB689,Alejandro Williamson,49,gwendolyn07@example.org,Susanmouth,PA,SAVINGS
+CUST-28D961BB,Monique Thomas,18,shelly72@example.com,Rosehaven,SD,SAVINGS
+CUST-980CA3AC,Tammy Shepherd,61,bburke@example.net,Nelsonberg,MH,SAVINGS
+CUST-3DFEF8A8,Bryan Snow,41,candicesutton@example.org,Veronicastad,MP,CHECKING
+CUST-4730C5D4,Charles Vaughan,78,rhonda45@example.org,Burkehaven,MS,SAVINGS
+CUST-102B449E,Jeffrey Lawrence,80,leonardsanders@example.com,Port Timothybury,AK,CREDIT
+CUST-2F3B4922,Chad Lee,25,umills@example.net,Kristenberg,AK,CREDIT
+CUST-96A8815D,Michelle Kerr,56,pamela27@example.net,Pattersonmouth,CO,CREDIT
+CUST-CEE8212F,Derek Norton,58,kathleenmcdonald@example.net,Ortegatown,CO,CHECKING
+CUST-E5A753B5,Shaun Johnson,75,amanda51@example.org,Michaelmouth,VT,CHECKING
+CUST-1BF2DE25,Lindsey Rivera,32,pottstaylor@example.net,New Stevenfort,WY,SAVINGS
+CUST-AABD02B7,Scott Cochran,26,abright@example.net,New Heatherside,OR,SAVINGS
+CUST-C833DDAC,Lacey Cunningham,21,adam81@example.org,Austinborough,CO,SAVINGS
+CUST-FEF66A67,Kevin Stone,31,dean53@example.com,New Joshua,NE,SAVINGS
+CUST-8AE7BD41,Zachary Harris,64,glong@example.org,South Evanside,HI,CHECKING
+CUST-5ABE27B9,Sheila York,58,alexander59@example.org,East Jennifertown,WA,CHECKING
+CUST-2EBAE291,Chad Nichols,23,mhayes@example.net,West Timothy,ME,CREDIT
+CUST-D8928906,Cheryl Gardner,40,johnsonronald@example.com,Lake Lisatown,TN,SAVINGS
+CUST-722BFFD4,Devon George,26,umiller@example.com,East Melissaton,CA,CREDIT
+CUST-5C38CF54,Lisa Harris,58,rachel61@example.com,Marshallmouth,WY,SAVINGS
+CUST-49D48EF5,Joy Jenkins,32,timothy84@example.com,Ashleystad,IA,CREDIT
+CUST-6D04678E,Kevin Clark,42,dixonmonica@example.net,Richardberg,ND,CHECKING
+CUST-AB177B66,Brittany Brady,47,moorematthew@example.org,New Joshuabury,MD,CHECKING
+CUST-E5DC66DE,Jaime Marshall,66,williamolson@example.com,Barrettchester,AZ,SAVINGS
+CUST-1516AFF7,Diana King,43,fwilson@example.org,South Nicole,VI,SAVINGS
+CUST-19076937,Derek Elliott,78,ybishop@example.org,South Mary,CO,CREDIT
+CUST-890B1946,Laura Lopez,35,bruceshaun@example.net,East Robertbury,LA,SAVINGS
+CUST-C2590469,Pamela Dorsey,50,hcannon@example.com,Watsonmouth,TN,CREDIT
+CUST-A9D3ECA2,Michael Lucas,20,barbara86@example.net,Lake Jenniferland,GA,SAVINGS
+CUST-32D21D34,Laura Carter,33,zbrewer@example.com,Williamsside,UT,CREDIT
+CUST-A525CF98,Michael Allen,40,jonroberts@example.com,Lake Jennifer,MT,CHECKING
+CUST-02BD1971,Kelly Riley,77,perezjessica@example.net,Thompsonburgh,FM,SAVINGS
+CUST-52486970,Kayla Bright,71,gregory28@example.com,New Evelyn,IL,CHECKING
+CUST-C49F1441,Melvin Ewing,62,ralphkeith@example.com,South Lisastad,SC,CREDIT
+CUST-0847E84B,Karen Lee,76,laralonnie@example.net,Jasonberg,MD,CHECKING
+CUST-E2D255A4,Jessica Wilkins,70,escobaradam@example.com,Port Amberfort,ND,SAVINGS
+CUST-FBC3B290,Mary Patterson,40,smithedgar@example.net,Lake Tylershire,MA,CHECKING
+CUST-46546D7A,David Allen,20,mary39@example.net,Adamston,OH,CREDIT
+CUST-038F6E1C,James Kramer,50,andrewsjasmin@example.com,South Georgeview,DC,CREDIT
+CUST-853CADC0,Joseph Mccoy,75,richardalexander@example.org,Bellfurt,NJ,CREDIT
+CUST-A0C92DAE,Christine Cannon,64,danielleclarke@example.com,Julieside,NJ,SAVINGS
+CUST-5A18EC63,Kara Fuller,79,lrivera@example.org,Jennifertown,IA,SAVINGS
+CUST-098A01DB,Michael Gibson,37,lisa18@example.org,Murraymouth,UT,SAVINGS
+CUST-70692135,Jennifer Ramsey,24,obailey@example.net,West Emily,GA,CREDIT
+CUST-935B429F,Ralph Schroeder,46,holly16@example.org,West Jennifer,SC,SAVINGS
+CUST-0D1E4A86,Amanda Owens,55,dustin78@example.net,Katiemouth,OH,CREDIT
+CUST-1F063B2B,Cheryl Adams,30,stephenserin@example.com,Lake Mollychester,MN,CREDIT
+CUST-4E433C13,Patricia Adams,77,christine54@example.org,North Kathleen,NE,SAVINGS
+CUST-CDFB28ED,Ronald Benton,51,huntbrianna@example.com,Stephanieton,MP,CREDIT
+CUST-217BC247,Kristen Gibbs,35,carl43@example.net,Clarkmouth,MT,SAVINGS
+CUST-0EBFA0E0,Jordan Lawson,30,ericthompson@example.net,West Courtneyport,AR,SAVINGS
+CUST-89E49264,Sierra Robinson,33,hansenjames@example.com,North Meagan,KY,SAVINGS
+CUST-8F4D1B76,David White,49,frobinson@example.net,Veronicastad,UT,CHECKING
+CUST-4FC986C9,Dennis Hill,47,jeffery50@example.org,Lake Angela,KS,SAVINGS
+CUST-829F0595,Kathryn Williams,80,ggreen@example.com,Port Robert,CO,CREDIT
+CUST-32E6BCE8,Brian Nelson,67,gallen@example.net,South Franciscohaven,PR,CHECKING
+CUST-BF2BA6E0,Monica Turner,70,jonesjill@example.com,Lake Lauren,OK,SAVINGS
+CUST-5F33D44D,Amy Mayer,59,fhoward@example.org,North Anthony,MO,CHECKING
+CUST-9DDBA6DB,Victoria Jones,55,ijones@example.com,East Anna,NH,SAVINGS
+CUST-3ED59B77,Donald Fisher,76,clarkantonio@example.com,New Jeffery,ND,CHECKING
+CUST-0DC3DE11,Kayla Medina,77,susan80@example.com,East Jason,NJ,SAVINGS
+CUST-52775C63,Natalie Clarke,21,mperez@example.net,New Daniel,CT,CHECKING
+CUST-DCAE751A,David Collins,56,qwilliams@example.net,Kaylaborough,OK,SAVINGS
+CUST-577F1516,Walter Young,20,hlester@example.org,East Carrie,NH,CREDIT
+CUST-FB8F3CFB,Derrick Moore,32,xgonzalez@example.com,North Susan,NE,CHECKING
+CUST-FF970BCC,Russell Neal,42,jbrown@example.org,Randyfort,CO,SAVINGS
+CUST-D8B8ABCA,Angelica Rice,72,brian33@example.org,Walkertown,IA,CREDIT
+CUST-A87112C7,Amy Roy,36,lchambers@example.net,Brookestad,KY,SAVINGS
+CUST-385EA4DF,Amber Curry,70,timothygreen@example.com,Hendersonside,AR,CHECKING
+CUST-C52DF4A8,Jason Jones,38,bray@example.com,Hardybury,NH,CHECKING
+CUST-A0CC6D13,Andrew Mcdonald,43,ugonzalez@example.org,Brianville,GA,CHECKING
+CUST-579AB733,Carol Sanchez,54,mcclainsharon@example.net,Jessicaland,ME,CHECKING
+CUST-5B59B43D,Heidi Reilly,59,schambers@example.com,North Tracyfurt,MI,CREDIT
+CUST-DF3CE9ED,Donald Thomas,74,destinyperry@example.com,Reevesview,CT,CHECKING
+CUST-8BC3BA9C,Ricardo Mcpherson,80,ksilva@example.net,Stewartfurt,CT,CHECKING
+CUST-8CDA30F5,Robert Thomas DVM,46,carmendavenport@example.net,Snyderburgh,PW,CHECKING
+CUST-0E58D6C9,Kiara Chen,71,zrodriguez@example.org,Lake Dustinview,CO,SAVINGS
+CUST-CE39DC6E,Michael Ortiz,40,stephenbest@example.net,Arthurton,WI,SAVINGS
+CUST-775E08A1,Leslie Miller,51,diamondhunter@example.com,Richardfurt,WA,SAVINGS
+CUST-D81F8371,Richard Russell,42,jrodriguez@example.com,Barneshaven,MP,SAVINGS
+CUST-B098667D,Samantha May,43,ortizapril@example.org,South Josephchester,PW,SAVINGS
+CUST-E13C4342,Ashley Tran,49,opeters@example.com,Flemingport,GA,CHECKING
+CUST-A2BF3B45,Angelica Patel,80,dramirez@example.com,West Jennifer,CA,CREDIT
+CUST-4BABDE9F,Jennifer Garcia,27,anna68@example.org,Jessicaborough,TX,CHECKING
+CUST-CFF64423,Sandra Carter,44,xroberts@example.com,South Noahshire,KY,CREDIT
+CUST-1188863B,Andrew Chavez,68,perryjames@example.org,Wallmouth,MH,SAVINGS
+CUST-DB57E9C5,Nathan Price,73,caldwelldanielle@example.com,Amyfort,ME,CREDIT
+CUST-6A7CE833,Jorge Morales,73,daniel38@example.org,East Jill,ME,CHECKING
+CUST-5BEF0C72,Matthew Hernandez,24,jimshaffer@example.com,Port Joshua,IL,CHECKING
