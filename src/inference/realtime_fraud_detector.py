@@ -6,6 +6,16 @@ import numpy as np
 import pandas as pd
 from confluent_kafka import Consumer, KafkaException
 
+from src.storage.prediction_writer import (
+    initialize_prediction_storage,
+    write_prediction,
+)
+
+from src.storage.postgres_writer import (
+    test_connection,
+    write_prediction_to_postgres,
+)
+
 
 # ============================================================
 # CONFIGURATION
@@ -14,15 +24,15 @@ from confluent_kafka import Consumer, KafkaException
 KAFKA_BROKER = "localhost:9092"
 KAFKA_TOPIC = "banking-transactions"
 
-CONSUMER_GROUP = "fraud-ml-inference-v1"
+# PostgreSQL-enabled inference consumer
+CONSUMER_GROUP = "fraud-ml-postgres-v2"
 
-MODEL_PATH = Path(
-    "models/fraud_random_forest.joblib"
-)
+MODEL_PATH = Path("models/fraud_random_forest.joblib")
 
-# Start with the standard classifier threshold.
-# Later we will tune this using precision/recall.
-FRAUD_THRESHOLD = 0.50
+# Optimized fraud classification threshold.
+# Threshold analysis on the current labeled evaluation sample
+# showed that 0.40 detected all four known fraud transactions.
+FRAUD_THRESHOLD = 0.40
 
 
 # ============================================================
@@ -63,25 +73,17 @@ def create_consumer():
     config = {
         "bootstrap.servers": KAFKA_BROKER,
         "group.id": CONSUMER_GROUP,
-
-        # For a brand-new consumer group, begin with the
-        # earliest available messages.
         "auto.offset.reset": "earliest",
-
-        # We commit only after successfully processing
-        # a transaction.
         "enable.auto.commit": False,
     }
 
     consumer = Consumer(config)
 
-    consumer.subscribe(
-        [KAFKA_TOPIC]
-    )
+    consumer.subscribe([KAFKA_TOPIC])
 
-    print(f"Kafka broker : {KAFKA_BROKER}")
-    print(f"Kafka topic  : {KAFKA_TOPIC}")
-    print(f"Consumer group: {CONSUMER_GROUP}")
+    print(f"Kafka broker   : {KAFKA_BROKER}")
+    print(f"Kafka topic    : {KAFKA_TOPIC}")
+    print(f"Consumer group : {CONSUMER_GROUP}")
 
     return consumer
 
@@ -94,16 +96,10 @@ def create_model_features(transaction):
 
     """
     Convert one Kafka transaction into the exact feature
-    structure expected by the trained sklearn pipeline.
+    structure expected by the trained ML pipeline.
     """
 
-    df = pd.DataFrame(
-        [transaction]
-    )
-
-    # --------------------------------------------------------
-    # REQUIRED RAW COLUMNS
-    # --------------------------------------------------------
+    df = pd.DataFrame([transaction])
 
     required_columns = [
         "timestamp",
@@ -129,7 +125,7 @@ def create_model_features(transaction):
         )
 
     # --------------------------------------------------------
-    # CLEAN NUMERIC VALUES
+    # NUMERIC CLEANING
     # --------------------------------------------------------
 
     df["amount"] = pd.to_numeric(
@@ -148,7 +144,7 @@ def create_model_features(transaction):
     )
 
     # --------------------------------------------------------
-    # TIMESTAMP FEATURES
+    # TIMESTAMP PROCESSING
     # --------------------------------------------------------
 
     df["timestamp"] = pd.to_datetime(
@@ -156,6 +152,10 @@ def create_model_features(transaction):
         errors="coerce",
         utc=True,
     )
+
+    # --------------------------------------------------------
+    # TIME FEATURES
+    # --------------------------------------------------------
 
     df["transaction_hour"] = (
         df["timestamp"].dt.hour
@@ -205,7 +205,7 @@ def create_model_features(transaction):
     )
 
     # --------------------------------------------------------
-    # EXACT MODEL FEATURE SET
+    # EXACT MODEL FEATURES
     # --------------------------------------------------------
 
     feature_columns = [
@@ -242,10 +242,12 @@ def score_transaction(
         transaction
     )
 
+    probabilities = model.predict_proba(
+        features
+    )
+
     fraud_probability = float(
-        model.predict_proba(
-            features
-        )[0][1]
+        probabilities[0][1]
     )
 
     predicted_fraud = int(
@@ -259,10 +261,13 @@ def score_transaction(
 
 
 # ============================================================
-# DETERMINE DISPLAY RISK LEVEL
+# RISK LEVEL
 # ============================================================
 
 def get_risk_level(probability):
+
+    # Risk severity is intentionally separate from the
+    # binary fraud-classification threshold.
 
     if probability >= 0.80:
         return "CRITICAL"
@@ -284,50 +289,47 @@ def display_prediction(
     transaction,
     probability,
     predicted_fraud,
+    risk_level,
 ):
 
     transaction_id = transaction.get(
         "transaction_id",
-        "UNKNOWN"
+        "UNKNOWN",
     )
 
     customer_id = transaction.get(
         "customer_id",
-        "UNKNOWN"
+        "UNKNOWN",
     )
 
     account_id = transaction.get(
         "account_id",
-        "UNKNOWN"
+        "UNKNOWN",
     )
 
     amount = transaction.get(
         "amount",
-        0
+        0,
     )
 
     channel = transaction.get(
         "channel",
-        "UNKNOWN"
+        "UNKNOWN",
     )
 
     country = transaction.get(
         "country",
-        "UNKNOWN"
+        "UNKNOWN",
     )
 
     actual_fraud = transaction.get(
         "is_fraud",
-        "UNKNOWN"
+        "UNKNOWN",
     )
 
     fraud_type = transaction.get(
         "fraud_type",
-        "UNKNOWN"
-    )
-
-    risk_level = get_risk_level(
-        probability
+        "UNKNOWN",
     )
 
     print()
@@ -366,12 +368,14 @@ def display_prediction(
     )
 
     print(
-        f"Prediction  : "
-        f"{'FRAUD' if predicted_fraud else 'NORMAL'}"
+        "Prediction  : "
+        + (
+            "FRAUD"
+            if predicted_fraud
+            else "NORMAL"
+        )
     )
 
-    # These are shown only for evaluation because our
-    # synthetic Kafka data contains ground-truth labels.
     print(
         f"Actual Label: {actual_fraud}"
     )
@@ -388,28 +392,115 @@ def display_prediction(
         print(
             f"Transaction {transaction_id} "
             f"exceeded the "
-            f"{FRAUD_THRESHOLD:.0%} ML threshold."
+            f"{FRAUD_THRESHOLD:.0%} "
+            "ML fraud threshold."
         )
 
     print("-" * 75)
 
 
 # ============================================================
-# REAL-TIME CONSUMER LOOP
+# PRINT PROCESSING SUMMARY
+# ============================================================
+
+def print_processing_summary(
+    processed_count,
+    fraud_alert_count,
+    csv_count,
+    postgres_count,
+    duplicate_count,
+    failed_count,
+):
+
+    print()
+    print("=" * 55)
+
+    print(
+        f"Processed transactions : "
+        f"{processed_count}"
+    )
+
+    print(
+        f"Fraud alerts           : "
+        f"{fraud_alert_count}"
+    )
+
+    print(
+        f"CSV writes             : "
+        f"{csv_count}"
+    )
+
+    print(
+        f"PostgreSQL inserts     : "
+        f"{postgres_count}"
+    )
+
+    print(
+        f"Duplicate DB skips     : "
+        f"{duplicate_count}"
+    )
+
+    print(
+        f"Failed transactions    : "
+        f"{failed_count}"
+    )
+
+    print("=" * 55)
+
+
+# ============================================================
+# REAL-TIME DETECTOR
 # ============================================================
 
 def run_detector():
 
+    # --------------------------------------------------------
+    # LOAD MODEL
+    # --------------------------------------------------------
+
     model = load_model()
 
-    consumer = create_consumer()
+    # --------------------------------------------------------
+    # INITIALIZE CSV STORAGE
+    # --------------------------------------------------------
 
-    processed_count = 0
-    fraud_alert_count = 0
+    initialize_prediction_storage()
+
+    # --------------------------------------------------------
+    # VERIFY POSTGRESQL
+    # --------------------------------------------------------
 
     print()
     print("=" * 75)
-    print("LISTENING FOR REAL-TIME BANKING TRANSACTIONS")
+    print("CHECKING POSTGRESQL")
+    print("=" * 75)
+
+    test_connection()
+
+    # --------------------------------------------------------
+    # CREATE KAFKA CONSUMER
+    # --------------------------------------------------------
+
+    consumer = create_consumer()
+
+    # --------------------------------------------------------
+    # PROCESSING COUNTERS
+    # --------------------------------------------------------
+
+    processed_count = 0
+    fraud_alert_count = 0
+    postgres_count = 0
+    duplicate_count = 0
+    csv_count = 0
+    failed_count = 0
+
+    print()
+    print("=" * 75)
+
+    print(
+        "LISTENING FOR REAL-TIME BANKING TRANSACTIONS"
+    )
+
     print("=" * 75)
 
     print()
@@ -421,6 +512,10 @@ def run_detector():
 
         while True:
 
+            # ------------------------------------------------
+            # READ KAFKA MESSAGE
+            # ------------------------------------------------
+
             message = consumer.poll(
                 timeout=1.0
             )
@@ -429,20 +524,30 @@ def run_detector():
                 continue
 
             if message.error():
+
                 raise KafkaException(
                     message.error()
                 )
 
             try:
 
+                # --------------------------------------------
+                # DECODE KAFKA MESSAGE
+                # --------------------------------------------
+
                 raw_value = (
-                    message.value()
+                    message
+                    .value()
                     .decode("utf-8")
                 )
 
                 transaction = json.loads(
                     raw_value
                 )
+
+                # --------------------------------------------
+                # ML INFERENCE
+                # --------------------------------------------
 
                 (
                     fraud_probability,
@@ -452,72 +557,187 @@ def run_detector():
                     transaction,
                 )
 
-                display_prediction(
-                    transaction,
-                    fraud_probability,
-                    predicted_fraud,
+                # --------------------------------------------
+                # RISK CLASSIFICATION
+                # --------------------------------------------
+
+                risk_level = get_risk_level(
+                    fraud_probability
                 )
+
+                # --------------------------------------------
+                # DISPLAY RESULT
+                # --------------------------------------------
+
+                display_prediction(
+                    transaction=transaction,
+                    probability=fraud_probability,
+                    predicted_fraud=predicted_fraud,
+                    risk_level=risk_level,
+                )
+
+                # --------------------------------------------
+                # CSV STORAGE
+                # --------------------------------------------
+
+                write_prediction(
+                    transaction=transaction,
+                    fraud_probability=fraud_probability,
+                    predicted_fraud=predicted_fraud,
+                    risk_level=risk_level,
+                )
+
+                csv_count += 1
+
+                # --------------------------------------------
+                # POSTGRESQL STORAGE
+                # --------------------------------------------
+
+                inserted = write_prediction_to_postgres(
+                    transaction=transaction,
+                    fraud_probability=fraud_probability,
+                    predicted_fraud=predicted_fraud,
+                    risk_level=risk_level,
+                )
+
+                # Count actual inserts separately from
+                # duplicate transactions skipped by PostgreSQL.
+                if inserted:
+                    postgres_count += 1
+                else:
+                    duplicate_count += 1
+
+                # --------------------------------------------
+                # UPDATE COUNTERS
+                # --------------------------------------------
 
                 processed_count += 1
 
                 if predicted_fraud:
                     fraud_alert_count += 1
 
-                # Commit after successful processing.
+                # --------------------------------------------
+                # COMMIT KAFKA OFFSET
+                # --------------------------------------------
+
+                # Offset is committed only after:
+                #
+                # 1. ML prediction succeeds
+                # 2. CSV write succeeds
+                # 3. PostgreSQL operation succeeds
+                #
+                # A duplicate PostgreSQL transaction is not
+                # considered a processing failure.
+
                 consumer.commit(
                     message=message,
                     asynchronous=False,
                 )
 
+                # --------------------------------------------
+                # PROGRESS REPORT
+                # --------------------------------------------
+
                 if processed_count % 10 == 0:
 
-                    print()
-                    print(
-                        f"Processed transactions : "
-                        f"{processed_count}"
-                    )
-
-                    print(
-                        f"Fraud alerts           : "
-                        f"{fraud_alert_count}"
+                    print_processing_summary(
+                        processed_count=processed_count,
+                        fraud_alert_count=fraud_alert_count,
+                        csv_count=csv_count,
+                        postgres_count=postgres_count,
+                        duplicate_count=duplicate_count,
+                        failed_count=failed_count,
                     )
 
             except Exception as error:
 
+                failed_count += 1
+
                 print()
+                print("=" * 75)
+
                 print(
-                    "Failed to process transaction:"
+                    "FAILED TO PROCESS TRANSACTION"
                 )
 
-                print(error)
+                print("=" * 75)
 
-                # Do not commit this message because
-                # processing failed.
+                print(
+                    f"Kafka partition: "
+                    f"{message.partition()}"
+                )
+
+                print(
+                    f"Kafka offset   : "
+                    f"{message.offset()}"
+                )
+
+                print(
+                    f"Error          : "
+                    f"{error}"
+                )
+
+                print()
+
+                print(
+                    "Kafka offset NOT committed."
+                )
+
+                print("=" * 75)
 
     except KeyboardInterrupt:
 
         print()
         print()
-        print("=" * 75)
-        print("STOPPING REAL-TIME FRAUD DETECTOR")
+
         print("=" * 75)
 
         print(
-            f"Transactions processed: "
+            "STOPPING REAL-TIME FRAUD DETECTOR"
+        )
+
+        print("=" * 75)
+
+        print(
+            f"Transactions processed : "
             f"{processed_count}"
         )
 
         print(
-            f"Fraud alerts generated: "
+            f"Fraud alerts generated : "
             f"{fraud_alert_count}"
         )
+
+        print(
+            f"CSV writes             : "
+            f"{csv_count}"
+        )
+
+        print(
+            f"PostgreSQL inserts     : "
+            f"{postgres_count}"
+        )
+
+        print(
+            f"Duplicate DB skips     : "
+            f"{duplicate_count}"
+        )
+
+        print(
+            f"Failed transactions    : "
+            f"{failed_count}"
+        )
+
+        print("=" * 75)
 
     finally:
 
         consumer.close()
 
         print()
-        print("Kafka consumer closed.")
+        print(
+            "Kafka consumer closed."
+        )
 
 
 # ============================================================
@@ -525,4 +745,5 @@ def run_detector():
 # ============================================================
 
 if __name__ == "__main__":
+
     run_detector()
