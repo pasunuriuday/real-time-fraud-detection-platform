@@ -1,3 +1,10 @@
+# Spark generated data
+data/bronze/
+data/silver/
+data/gold/
+
+# Spark Structured Streaming checkpoints
+data/checkpoints/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
